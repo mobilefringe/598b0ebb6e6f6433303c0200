@@ -73,7 +73,8 @@
     <link rel='stylesheet' id='wpml-legacy-dropdown-0-inline-css' href='/wpml-legacy-dropdown-inline.css' type='text/css' />
     <link rel='stylesheet' id='bootstrap-css' href="/bootstrap.css" type='text/css' media='all' />
     <link rel='stylesheet' id='google_fonts-css'  href='//fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C800&#038' type='text/css' media='all' />
-    <link rel='stylesheet' id='slick_css-css'  href='/slick.css' type='text/css' media='all'/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <!--<link rel='stylesheet' id='slick_css-css'  href='/slick.css' type='text/css' media='all'/>-->
     <!--<link rel='stylesheet' id='magnific_popup_css-css'  href='http://www.20vic.com/cms/wp-content/themes/20vic/js/magnific-popup/magnific-popup.css?ver=4.7.5' type='text/css' media='all' />-->
     <!--<link rel='stylesheet' id='20vic-css'  href='http://www.20vic.com/cms/wp-content/themes/20vic/style.css?ver=4.7.5' type='text/css' media='all' />-->
     
@@ -334,6 +335,7 @@
     </footer>
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 </body>
 
 </html>
