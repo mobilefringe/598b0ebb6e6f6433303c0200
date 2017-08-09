@@ -38,8 +38,7 @@
 		</div>
 	    <div class="twelve pagecontent">
 			<h1>Development</h1>
-			<h3>Smart development today, for a sustainable tomorrow.</h3>
-            <p>20 VIC has envisioned, engineered and transformed retail, industrial and office projects across Canada. Committed to creating practical solutions that last, our team of national professionals are experienced in all phases of the real estate development process.  Whether identifying opportunities for new development or enhancing the value of existing properties through redevelopment, our track record is unmatched.</p>
+			<div id="page_content"></div>
 	    </div>
     </div>
 </div>
@@ -54,9 +53,9 @@
             // }
             
             var prefix = get_prefix();
-            var pages_json = prefix + "/pages/thegateway-tourism.json"
+            var pages_json = prefix + "/pages/20vic-development.json"
             $.getJSON(pages_json).done(function(data) {
-                $('#mm_page_content').html(data.body);
+                $('#page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
