@@ -9,9 +9,9 @@
 	    <div class="four">
 		    <div class="left-sidebar top-padding">
                 <a href="/sustainability" class="active">Overview</a>
-                <a href="http://www.20vic.com/sustainability/case-studies/" class="">Case Studies</a>
-                <a href="http://www.20vic.com/sustainability/awards-certification/" class="">Awards/Certification</a>
-                <a href="http://www.20vic.com/sustainability/annual-sustainability-report/" class="">Sustainability Report</a>
+                <a href="/sustainability/case-studies" class="">Case Studies</a>
+                <a href="/sustainability/awards-certification" class="">Awards/Certification</a>
+                <a href="/sustainability/annual-sustainability-report" class="">Sustainability Report</a>
             </div>
         </div>	
 	    <div class="twelve pagecontent">	
