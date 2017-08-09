@@ -31,9 +31,9 @@
     <div class="sixteen clearfix content">
 	    <div class="four">
 		    <div class="left-sidebar top-padding">
-	            <a href="/developments" class="active">Overview</a>
-			    <a href="http://www.20vic.com/developments/in-progress/" class="">In-Progress Projects</a>
-				<a href="http://www.20vic.com/developments/completed/" class="">Completed Projects</a>
+	            <a href="/development" class="active">Overview</a>
+			    <a href="/development/in-progress" class="">In-Progress Projects</a>
+				<a href="/development/completed" class="">Completed Projects</a>
 			</div>	
 		</div>
 	    <div class="twelve pagecontent">
