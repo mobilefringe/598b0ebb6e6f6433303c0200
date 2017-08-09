@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{meta_keywords}}">
+    <meta name="author" content="">
+    <title>{{meta_title}}</title>
+
+   
+    <!--CSS-->
+    <link href="/application.css" rel="stylesheet">
+    <!--Javascript-->
+    <script src="/application.js"></script>
+
+</head>
+
+<body>
+    <div id="skiptocontent">
+	    <a href="#maincontent">skip to main content</a>
+	</div>
+	<div class="nav-bar">
+		<div class="container">
+			<a class="logo-link" href="http://www.20vic.com"><span class="hide-text">20 VIC Management Inc</span></a>
+			<div class="header-menu-container">
+			    <ul id="menu-main-menu" class="menu">
+			        <li id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424">
+			            <a href="http://www.20vic.com/about/">About</a>
+                        <ul class="sub-menu">
+	                        <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38">
+	                            <a href="http://www.20vic.com/about/team/">Team</a>
+                            </li>
+                            <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37">
+                                <a href="http://www.20vic.com/about/accomplishments/">Accomplishments</a>
+                            </li>
+	                        <li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163">
+	                            <a href="http://www.20vic.com/about/community/">Community</a>
+                            </li>
+	                        <li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164">
+	                            <a href="http://www.20vic.com/about/careers/">Careers</a>
+                            </li>
+	                        <li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136">
+                                <a href="http://www.20vic.com/about/news/">News</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34">
+                        <a href="http://www.20vic.com/sustainability/">Sustainability</a>
+                        <ul class="sub-menu">
+	                        <li id="menu-item-2378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2378">
+	                            <a href="http://www.20vic.com/sustainability/case-studies/">Case Studies</a>
+                            </li>
+                            <li id="menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2373">
+                                <a href="http://www.20vic.com/sustainability/awards-certification/">Awards/Certification</a>
+                            </li>
+	                        <li id="menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372">
+	                            <a href="http://www.20vic.com/sustainability/annual-sustainability-report/">Sustainability Report</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18">
+                        <a href="http://www.20vic.com/developments/">Development</a>
+                        <ul class="sub-menu">
+	                        <li id="menu-item-2311" class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2311">
+	                            <a href="http://www.20vic.com/developments/in-progress/">In-Progress Projects</a>
+                            </li>
+	                        <li id="menu-item-2310" class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2310">
+	                            <a href="http://www.20vic.com/developments/completed/">Completed Projects</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19">
+                        <a href="http://www.20vic.com/advisory/">Advisory</a>
+                    </li>
+                    <li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-423">
+                        <a href="http://www.20vic.com/leasing/">Leasing</a>
+                        <ul class="sub-menu">
+	                        <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
+	                            <a href="http://www.20vic.com/leasing/retail-portfolio/">Retail Portfolio</a>
+                            </li>
+	                        <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+	                            <a href="http://www.20vic.com/leasing/office-portfolio/">Office Portfolio</a>
+                            </li>
+	                        <li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439">
+	                            <a href="http://www.20vic.com/leasing/other-portfolio/">Other Portfolio</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                        <a href="http://www.20vic.com/contact/">Contact</a>
+                    </li>
+                </ul>
+            </div>			
+			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".mobile-navbar-collapse"></button>
+			<div class="collapse navbar-collapse mobile-navbar-collapse">
+				<div class="menu-main-menu-container">
+				    <ul id="menu-main-menu-1" class="menu">
+				        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424">
+				            <a href="http://www.20vic.com/about/">About</a>
+                            <ul class="sub-menu">
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38">
+                            	    <a href="http://www.20vic.com/about/team/">Team</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37">
+                            	    <a href="http://www.20vic.com/about/accomplishments/">Accomplishments</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163">
+                            	    <a href="http://www.20vic.com/about/community/">Community</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164">
+                            	    <a href="http://www.20vic.com/about/careers/">Careers</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136">
+                            	    <a href="http://www.20vic.com/about/news/">News</a>
+                        	    </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34">
+                            <a href="http://www.20vic.com/sustainability/">Sustainability</a>
+                            <ul class="sub-menu">
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2378">
+                            	    <a href="http://www.20vic.com/sustainability/case-studies/">Case Studies</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2373">
+                            	    <a href="http://www.20vic.com/sustainability/awards-certification/">Awards/Certification</a>
+                    	        </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372">
+                            	    <a href="http://www.20vic.com/sustainability/annual-sustainability-report/">Sustainability Report</a>
+                        	    </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18">
+                            <a href="http://www.20vic.com/developments/">Development</a>
+                            <ul class="sub-menu">
+                            	<li class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2311">
+                            	    <a href="http://www.20vic.com/developments/in-progress/">In-Progress Projects</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2310">
+                            	    <a href="http://www.20vic.com/developments/completed/">Completed Projects</a>
+                        	    </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19">
+                            <a href="http://www.20vic.com/advisory/">Advisory</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-423">
+                            <a href="http://www.20vic.com/leasing/">Leasing</a>
+                            <ul class="sub-menu">
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
+                            	    <a href="http://www.20vic.com/leasing/retail-portfolio/">Retail Portfolio</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+                            	    <a href="http://www.20vic.com/leasing/office-portfolio/">Office Portfolio</a>
+                        	    </li>
+                            	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439">
+                            	    <a href="http://www.20vic.com/leasing/other-portfolio/">Other Portfolio</a>
+                    	        </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                            <a href="http://www.20vic.com/contact/">Contact</a>
+                        </li>
+                    </ul>
+                </div>				
+            </div>
+		</div>
+	</div>
+    <section id="content">
+        <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
+        {{yield}}
+    </section>
+    <footer>
+        <!--Footer Content-->
+    </footer>
+</body>
+
+</html>
