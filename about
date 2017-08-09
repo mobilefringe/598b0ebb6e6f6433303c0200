@@ -34,7 +34,7 @@
             // }
             
             var prefix = get_prefix();
-            var pages_json = prefix + "/pages/thegateway-tourism.json"
+            var pages_json = prefix + "/pages/20vic-about.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#page_content').html(data.body);
             }).fail(function(jqXHR) {
