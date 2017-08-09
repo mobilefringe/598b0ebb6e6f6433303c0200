@@ -75,7 +75,7 @@
     </style>
     
     <!--CSS-->
-    <link rel='stylesheet' id='bootstrap-css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href="/bootstrap.css" type='text/css' media='all' />
 
     <link rel='stylesheet' id='google_fonts-css'  href='//fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C800&#038' type='text/css' media='all' />
     <link rel='stylesheet' id='slick_css-css'  href='/slick.css' type='text/css' media='all'/>
