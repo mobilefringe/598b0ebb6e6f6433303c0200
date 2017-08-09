@@ -140,10 +140,10 @@
                         <a href="/development">Development</a>
                         <ul class="sub-menu">
 	                        <li id="menu-item-2311" class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2311">
-	                            <a href="http://www.20vic.com/developments/in-progress/">In-Progress Projects</a>
+	                            <a href="/development/in-progress">In-Progress Projects</a>
                             </li>
 	                        <li id="menu-item-2310" class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2310">
-	                            <a href="http://www.20vic.com/developments/completed/">Completed Projects</a>
+	                            <a href="/development/completed">Completed Projects</a>
                             </li>
                         </ul>
                     </li>
@@ -211,10 +211,10 @@
                             <a href="/development">Development</a>
                             <ul class="sub-menu">
                             	<li class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2311">
-                            	    <a href="http://www.20vic.com/developments/in-progress/">In-Progress Projects</a>
+                            	    <a href="/development/in-progress">In-Progress Projects</a>
                         	    </li>
                             	<li class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2310">
-                            	    <a href="http://www.20vic.com/developments/completed/">Completed Projects</a>
+                            	    <a href="/development/completed">Completed Projects</a>
                         	    </li>
                             </ul>
                         </li>
