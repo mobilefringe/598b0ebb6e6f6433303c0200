@@ -19,10 +19,7 @@
         </div>	
 	    <div class="twelve pagecontent">	
 			<h1>About</h1>
-		    <h3>Build your investment on a foundation of confidence.</h3>
-            <p>20 VIC is one of Canada’s leading commercial real estate management companies providing high-level personalized service to an exclusive group of pension funds, private equity firms and high net worth investors.  Our boutique firm provides fully integrated investment, advisory and property management services with a track record of executing sophisticated development programs across the country.</p>
-            <p>Leveraging the expertise of our teams across Canada and our national network of relationships, we deliver tailored solutions that maximize our clients’ investments and create long term value.</p>
-            <p>Founded in 1995, 20 VIC currently manages a 20 million square foot portfolio with management offices across Canada.</p>
+		    <div id="page_content"></div>
 	    </div>		
     </div>
 </div>
@@ -39,7 +36,7 @@
             var prefix = get_prefix();
             var pages_json = prefix + "/pages/thegateway-tourism.json"
             $.getJSON(pages_json).done(function(data) {
-                $('#mm_page_content').html(data.body);
+                $('#page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
