@@ -1,0 +1,47 @@
+<div class="paused">Paused</div>
+<div class="slick-slider">
+    <div>
+		<div class="bottom image_medium" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/04/The-Core-Sustainability-OFW.jpg');"></div>
+    </div>
+</div>		
+<div id="maincontent" class="container">
+    <div class="sixteen clearfix content">
+	    <div class="four">
+		    <div class="left-sidebar top-padding">
+                <a href="/sustainability" class="active">Overview</a>
+                <a href="http://www.20vic.com/sustainability/case-studies/" class="">Case Studies</a>
+                <a href="http://www.20vic.com/sustainability/awards-certification/" class="">Awards/Certification</a>
+                <a href="http://www.20vic.com/sustainability/annual-sustainability-report/" class="">Sustainability Report</a>
+            </div>
+        </div>	
+	    <div class="twelve pagecontent">	
+			<h1>Sustainability</h1>
+		    <div id=""></div>
+	    </div>		
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            // var repo = getRepoDetailsByName("Tourism Banner");
+            // if (repo != undefined) {
+            //     var banner = getImageURL(repo.images[0].photo_url);
+            //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
+            // }
+            
+            var prefix = get_prefix();
+            var pages_json = prefix + "/pages/thegateway-tourism.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
