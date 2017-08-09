@@ -35,3 +35,7 @@ function init() {
         $( ".paused" ).hide();
     });
 }
+
+function show_content() {
+    
+}
