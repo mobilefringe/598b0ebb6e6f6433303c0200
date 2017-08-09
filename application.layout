@@ -255,7 +255,7 @@
 				        <div class="menu-footer-mobile-container">
 				            <ul id="menu-footer-mobile" class="menu">
 				                <li id="menu-item-3820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3820">
-				                    <a href="http://www.20vic.com/privacy-policy/">Privacy Policy</a>
+				                    <a href="/privacy-policy">Privacy Policy</a>
 			                    </li>
                                 <li id="menu-item-3821" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3821">
                                     <a href="#">Newsletter Signup</a>
@@ -316,7 +316,7 @@
                                             <a href="http://www.20vic.com/about/careers/">Careers</a>
                                         </li>
                                         <li id="menu-item-2635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2635">
-                                            <a href="http://www.20vic.com/privacy-policy/">Privacy Policy</a>
+                                            <a href="/privacy-policy">Privacy Policy</a>
                                         </li>
                                     </ul>
                                 </div>
