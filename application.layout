@@ -154,13 +154,13 @@
                         <a href="/leasing">Leasing</a>
                         <ul class="sub-menu">
 	                        <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
-	                            <a href="http://www.20vic.com/leasing/retail-portfolio/">Retail Portfolio</a>
+	                            <a href="/leasing/retail-portfolio">Retail Portfolio</a>
                             </li>
 	                        <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
-	                            <a href="http://www.20vic.com/leasing/office-portfolio/">Office Portfolio</a>
+	                            <a href="/leasing/office-portfolio">Office Portfolio</a>
                             </li>
 	                        <li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439">
-	                            <a href="http://www.20vic.com/leasing/other-portfolio/">Other Portfolio</a>
+	                            <a href="/leasing/other-portfolio">Other Portfolio</a>
                             </li>
                         </ul>
                     </li>
@@ -225,13 +225,13 @@
                             <a href="/leasing">Leasing</a>
                             <ul class="sub-menu">
                             	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
-                            	    <a href="http://www.20vic.com/leasing/retail-portfolio/">Retail Portfolio</a>
+                            	    <a href="/leasing/retail-portfolio">Retail Portfolio</a>
                         	    </li>
                             	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
-                            	    <a href="http://www.20vic.com/leasing/office-portfolio/">Office Portfolio</a>
+                            	    <a href="/leasing/office-portfolio">Office Portfolio</a>
                         	    </li>
                             	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439">
-                            	    <a href="http://www.20vic.com/leasing/other-portfolio/">Other Portfolio</a>
+                            	    <a href="/leasing/other-portfolio">Other Portfolio</a>
                     	        </li>
                             </ul>
                         </li>
@@ -287,13 +287,13 @@
     					        <div class="menu-footer-2-container">
     					            <ul id="menu-footer-2" class="menu">
     					                <li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
-    					                    <a href="http://www.20vic.com/leasing/office-portfolio/">Office Portfolio</a>
+    					                    <a href="/leasing/office-portfolio">Office Portfolio</a>
     				                    </li>
                                         <li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93">
-                                            <a href="http://www.20vic.com/leasing/retail-portfolio/">Retail Portfolio</a>
+                                            <a href="/leasing/retail-portfolio">Retail Portfolio</a>
                                         </li>
                                         <li id="menu-item-441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
-                                            <a href="http://www.20vic.com/leasing/other-portfolio/">Other Portfolio</a>
+                                            <a href="/leasing/other-portfolio">Other Portfolio</a>
                                         </li>
                                         <li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
                                             <a href="/development">Development</a>
