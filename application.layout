@@ -87,7 +87,11 @@
     <!--<script type='text/javascript' src='http://www.20vic.com/cms/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.js?ver=1'></script>-->
     <script src="/application.js"></script>
     <script src="/helper.js"></script>
-
+    
+    20vic.mallmaverick.com/api/v3/20vic/all.json
+    <script>
+        setEndPoint('//20vic.mallmaverick.com/api/v3/20vic/all.json');
+    </script>
 </head>
 
 <body>
