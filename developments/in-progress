@@ -1,0 +1,69 @@
+<div class="paused">Paused</div>
+<div class="slick-slider">
+    <div>
+		<div class="bottom image_narrow" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/Erin-Mill-development-14-1.jpg');"></div>
+	</div>
+	<div>
+		<div class="bottom image_narrow" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/Halifax-Shopping-Centre-after-photos-4-1.jpg');"></div>
+	</div>
+    <div>
+		<div class="bottom image_narrow" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/St_Vital_after.jpg');"></div>
+	</div>
+	<div>
+		<div class="bottom image_narrow" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/core_redevelopment_after.jpg');"></div>
+	</div>
+</div>		
+<div id="maincontent" class="container">
+    <div class="sixteen clearfix content">
+	    <div class="four">
+		    <div class="left-sidebar top-padding">
+	            <a href="/development" class="">Overview</a>
+			    <a href="/development/in-progress" class="active">In-Progress Projects</a>
+				<a href="/development/completed" class="">Completed Projects</a>
+			</div> 
+	    </div>
+	    <div class="twelve columns omega">
+		    <div class="pagecontent">
+			    <h2 id="subpage-title">In-Progress Projects</h2>
+
+				<a href="http://www.20vic.com/development/devonshire-mall-redevelopment/" class="gallery-box" style="background-image:url(http://www.20vic.com/cms/wp-content/uploads/2017/03/2016-11-29-Entrance-2.jpg);">
+					<div class="gallery-box-caption">
+						<h4>Devonshire Mall</h4>
+						<p>Windsor</p>
+					</div>
+				</a>
+				<a href="http://www.20vic.com/development/pickering-town-centre-2016/" class="gallery-box" style="background-image:url(http://20vic.com/cms/wp-content/uploads/2016/04/Pickering-Town-Centre-Search-OFW.jpg);">
+					<div class="gallery-box-caption">
+						<h4>Pickering Town Centre</h4>
+						<p>Pickering</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            // var repo = getRepoDetailsByName("Tourism Banner");
+            // if (repo != undefined) {
+            //     var banner = getImageURL(repo.images[0].photo_url);
+            //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
+            // }
+            
+            var prefix = get_prefix();
+            var pages_json = prefix + "/pages/thegateway-tourism.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
