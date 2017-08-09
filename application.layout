@@ -126,13 +126,13 @@
                         <a href="/sustainability">Sustainability</a>
                         <ul class="sub-menu">
 	                        <li id="menu-item-2378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2378">
-	                            <a href="http://www.20vic.com/sustainability/case-studies/">Case Studies</a>
+	                            <a href="/sustainability/case-studies">Case Studies</a>
                             </li>
                             <li id="menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2373">
-                                <a href="http://www.20vic.com/sustainability/awards-certification/">Awards/Certification</a>
+                                <a href="/sustainability/awards-certification">Awards/Certification</a>
                             </li>
 	                        <li id="menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372">
-	                            <a href="http://www.20vic.com/sustainability/annual-sustainability-report/">Sustainability Report</a>
+	                            <a href="/sustainability/annual-sustainability-report">Sustainability Report</a>
                             </li>
                         </ul>
                     </li>
@@ -197,13 +197,13 @@
                             <a href="/sustainability">Sustainability</a>
                             <ul class="sub-menu">
                             	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2378">
-                            	    <a href="http://www.20vic.com/sustainability/case-studies/">Case Studies</a>
+                            	    <a href="/sustainability/case-studies">Case Studies</a>
                         	    </li>
                             	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2373">
-                            	    <a href="http://www.20vic.com/sustainability/awards-certification/">Awards/Certification</a>
+                            	    <a href="/sustainability/awards-certification">Awards/Certification</a>
                     	        </li>
                             	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372">
-                            	    <a href="http://www.20vic.com/sustainability/annual-sustainability-report/">Sustainability Report</a>
+                            	    <a href="/sustainability/annual-sustainability-report">Sustainability Report</a>
                         	    </li>
                             </ul>
                         </li>
