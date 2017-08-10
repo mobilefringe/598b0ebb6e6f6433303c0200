@@ -45,6 +45,7 @@
             console.log(repo);
             if (repo != undefined) {
                 var banner_images = repo.images;
+                console.log(banner_images);
                 $.each(banner_images, function(key, val) {
                     var container = $(".slick-slider");
                     // var gallery_slug = $(val).attr('source');
