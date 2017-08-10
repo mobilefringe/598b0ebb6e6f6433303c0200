@@ -3,7 +3,7 @@
     <script id="banner_template" type="x-tmpl-mustache/text">
         <div>
             <a href="{{url}}" {{css}} onclick="{{noLink}}">
-    		    <div class="bottom image_medium" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/11/The-Core4-OFW.jpg');"></div>
+    		    <div class="bottom image_medium" style="background-image: url('{{photo_url_abs}}');"></div>
     	    </a>
     	</div>
     </script>
