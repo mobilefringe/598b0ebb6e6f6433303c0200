@@ -6,26 +6,29 @@ function renderBanner(banner_template,home_banner,banners){
     var banner_template_html = $(banner_template).html();
     Mustache.parse(banner_template_html);   // optional, speeds up future uses
     $.each( banners , function( key, val ) {
-        today = new Date();
-        start = new Date (val.start_date);
+    //     today = new Date();
+    //     start = new Date (val.start_date);
        
-        start.setDate(start.getDate());
-       if(val.url == "" || val.url === null){
-           val.css = "style=cursor:default;";
-           val.noLink = "return false";
-       }
-       if (start <= today){
-         if (val.end_date){
-             end = new Date (val.end_date);
-             end.setDate(end.getDate() + 1);
-             if (end >= today){
-               item_list.push(val);  
-             }
+    //     start.setDate(start.getDate());
+    //   if(val.url == "" || val.url === null){
+    //       val.css = "style=cursor:default;";
+    //       val.noLink = "return false";
+    //   }
+    //   if (start <= today){
+    //      if (val.end_date){
+    //          end = new Date (val.end_date);
+    //          end.setDate(end.getDate() + 1);
+    //          if (end >= today){
+    //           item_list.push(val);  
+    //          }
              
-         } else {
-             item_list.push(val);
-         }
-       }
+    //      } else {
+    //          item_list.push(val);
+    
+            // }
+        // }
+        var banner_img_url = getImageURL(val.photo_url);
+        val.banner_image = "background-image: url(" + banner_img_url + ");";
     });
 
     $.each( item_list , function( key, val ) {
