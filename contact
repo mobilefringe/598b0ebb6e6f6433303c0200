@@ -70,3 +70,29 @@
 </div>
 	
 <script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            // var repo = getRepoDetailsByName("Tourism Banner");
+            // if (repo != undefined) {
+            //     var banner = getImageURL(repo.images[0].photo_url);
+            //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
+            // }
+            
+            var prefix = get_prefix();
+            var pages_json = prefix + "/pages/20vic-about.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
