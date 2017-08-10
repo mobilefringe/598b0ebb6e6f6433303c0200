@@ -71,6 +71,13 @@
             }); 
             
             show_content();
+            
+            $('.slick-slider').slick({
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000  
+    });
         }
         loadMallDataCached(renderAll); 
     });
