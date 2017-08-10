@@ -25,27 +25,27 @@
                             <div class='gform_body'>
                                 <ul id='gform_fields_1' class='gform_fields'>
                                     <li id='field_1_1'>
-                                        <label class='gfield_label' for='input_1_1'>First name*</label>
-                                        <div class='ginput_container'>
-                                            <input name='input_1' id='input_1_1' type='text' value='' class='medium'/>
-                                        </div>
+                                        <label class='gfield_label' for='first_name'>First name*</label>
+                                        
+                                        <input name='first_name' id='first_name' type='text' value='' class='medium' required data-validation="required" tabindex="1"/>
+                                        <!--</div>-->
                                     </li>
                                     <li id='field_1_2'>
-                                        <label class='gfield_label' for='input_1_2'>Last name*</label>
+                                        <label for='input_1_2'>Last name*</label>
                                         <div class='ginput_container'>
-                                            <input name='input_2' id='input_1_2' type='text' value='' class='medium'/>
+                                            <input name='input_2' id='input_1_2' type='text' value='' class='medium' required/>
                                         </div>
                                     </li>
                                     <li id='field_1_6'>
-                                        <label class='gfield_label' for='input_1_6' >Email<span class='gfield_required'>*</span></label>
+                                        <label for='email' >Email*</label>
                                         <div class='ginput_container'>
-                                            <input name='input_6' id='input_1_6' type='email' value='' class='medium'/>
+                                            <input name='email' id='email' type='email' value='' class='medium' required/>
                                         </div>
                                     </li>
                                     <li id='field_1_5'>
-                                        <label class='gfield_label' for='input_1_5' >Comments</label>
+                                        <label for='message' >Comments</label>
                                         <div class='ginput_container'>
-    					                    <textarea name='input_5' id='input_1_5' class='textarea medium' rows='10' cols='50'></textarea>
+    					                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50'></textarea>
     				                    </div>
     			                    </li>
                                 </ul>
