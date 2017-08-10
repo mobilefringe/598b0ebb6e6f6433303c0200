@@ -31,11 +31,14 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            // var repo = getRepoDetailsByName("Tourism Banner");
+            var repo = getRepoDetailsByName("About Banner");
+            console.log(repo);
             // if (repo != undefined) {
             //     var banner = getImageURL(repo.images[0].photo_url);
-            //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
-            // }
+            //     renderBanner('#home_container','#banner_template',banners);
+                
+            // //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
+            // // }
             
             var prefix = get_prefix();
             var pages_json = prefix + "/pages/20vic-about.json"
