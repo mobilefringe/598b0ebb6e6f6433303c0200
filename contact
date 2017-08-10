@@ -79,9 +79,9 @@
                 }
             }); 
             
-            show_content();
-            
             $.validate();
+            
+            show_content();
         }
         loadMallDataCached(renderAll); 
         
