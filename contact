@@ -23,32 +23,24 @@
                                 <span class='gform_description'></span>
                             </div>
                             <div class='gform_body'>
-                                <ul id='gform_fields_1' class='gform_fields'>
-                                    <li id='field_1_1'>
+                                <!--<ul id='gform_fields_1' class='gform_fields'>-->
+                                <!--    <li id='field_1_1'>-->
                                         <label class='gfield_label' for='first_name'>First name*</label>
-                                        
                                         <input name='first_name' id='first_name' type='text' value='' class='medium' required data-validation="required" tabindex="1"/>
-                                        <!--</div>-->
-                                    </li>
-                                    <li id='field_1_2'>
+                                    <!--</li>-->
+                                    <!--<li id='field_1_2'>-->
                                         <label for='input_1_2'>Last name*</label>
-                                        <!--<div class='ginput_container'>-->
                                         <input name='input_2' id='input_1_2' type='text' value='' class='medium' required data-validation="required" tabindex="2"/>
-                                        <!--</div>-->
-                                    </li>
-                                    <li id='field_1_6'>
+                                    <!--</li>-->
+                                    <!--<li id='field_1_6'>-->
                                         <label for='email' >Email*</label>
-                                        <!--<div class='ginput_container'>-->
                                         <input name='email' id='email' type='email' value='' class='medium' required data-validation="required" tabindex="3"/>
-                                        <!--</div>-->
-                                    </li>
-                                    <li id='field_1_5'>
+                                    <!--</li>-->
+                                    <!--<li id='field_1_5'>-->
                                         <label for='message' >Comments</label>
-                                        <!--<div class='ginput_container'>-->
 					                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
-    				                    <!--</div>-->
-    			                    </li>
-                                </ul>
+    			                    <!--</li>-->
+                           <!--     </ul>-->
                             </div>
                             <div class='gform_footer top_label'> 
                                 <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  ' /> 
