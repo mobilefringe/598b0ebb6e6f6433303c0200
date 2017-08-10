@@ -1,7 +1,6 @@
 <div class="paused">Paused</div>
 <div id="banner_container">
     <div class="slick-slider">
-        <script id="banner_template" type="x-tmpl-mustache/text">
             
     
                 <div>
@@ -9,9 +8,7 @@
             		    <div class="bottom image_medium" style="background-image: url('{{photo_url_abs}}');"></div>
             	    </a>
             	</div>
-        
-        
-        </script>
+
     </div>    
 </div>		
 
@@ -33,6 +30,13 @@
 	    </div>		
     </div>
 </div>
+<script id="banner_template" type="x-tmpl-mustache/text">
+    <div>
+        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+    	    <div class="bottom image_medium" style="background-image: url('{{photo_url_abs}}');"></div>
+        </a>
+    </div>
+</script>
 <script>
     $(document).ready(function(e){
         init(e);
@@ -41,10 +45,12 @@
             console.log(repo);
             if (repo != undefined) {
                 var banner_images = repo.images;
-            //     var banner = getImageURL(repo.images[0].photo_url);
-                renderBanner('#home_container','#banner_template',banner_images);
-                
-            // //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
+                $.each(banner_images, function(key, val) {
+                    var container = $(".slick-slider");
+                    // var gallery_slug = $(val).attr('source');
+                    // gallery = getFashionBySlug(gallery_slug).fashion_images;
+                    renderGallery(container, "#banner_template", banner_images);
+                });
             }
             
             var prefix = get_prefix();
