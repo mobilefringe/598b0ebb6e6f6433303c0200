@@ -65,7 +65,7 @@ tr:last-child       {border-bottom: 1px solid #bdbec1;}
 td                  {padding: 15px 15px 15px 0; border-top: 1px solid #bdbec1;}
 td span             {color: #96afc5;}
 
-button              {background: #6d6e71; -webkit-appearance: none; border: none; border-radius: 5px; height: 40px; width: 40px; padding-top: 10px;}
+button              {background: #6d6e71; -webkit-appearance: none; border: none; height: 40px; width: 40px; padding-top: 10px;}
 
 
 .clearfix:before, 
