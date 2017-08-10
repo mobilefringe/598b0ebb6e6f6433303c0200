@@ -49,7 +49,7 @@
                     var container = $(".slick-slider");
                     // var gallery_slug = $(val).attr('source');
                     // gallery = getFashionBySlug(gallery_slug).fashion_images;
-                    renderGallery(container, "#banner_template", banner_images);
+                    renderBanner(container, "#banner_template", banner_images);
                 });
             }
             
