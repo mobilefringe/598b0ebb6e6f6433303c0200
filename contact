@@ -33,19 +33,19 @@
                                     <li id='field_1_2'>
                                         <label for='input_1_2'>Last name*</label>
                                         <div class='ginput_container'>
-                                            <input name='input_2' id='input_1_2' type='text' value='' class='medium' required/>
+                                            <input name='input_2' id='input_1_2' type='text' value='' class='medium' required data-validation="required" tabindex="2"/>
                                         </div>
                                     </li>
                                     <li id='field_1_6'>
                                         <label for='email' >Email*</label>
                                         <div class='ginput_container'>
-                                            <input name='email' id='email' type='email' value='' class='medium' required/>
+                                            <input name='email' id='email' type='email' value='' class='medium' required data-validation="required" tabindex="3"/>
                                         </div>
                                     </li>
                                     <li id='field_1_5'>
                                         <label for='message' >Comments</label>
                                         <div class='ginput_container'>
-    					                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50'></textarea>
+    					                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
     				                    </div>
     			                    </li>
                                 </ul>
