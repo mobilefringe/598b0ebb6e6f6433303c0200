@@ -1,7 +1,8 @@
 <div class="paused">Paused</div>
 <div id="banner_container">
+    <div class="slick-slider">
         <script id="banner_template" type="x-tmpl-mustache/text">
-            <div class="slick-slider">
+            
     
                 <div>
                     <a href="{{url}}" {{css}} onclick="{{noLink}}">
@@ -9,8 +10,9 @@
             	    </a>
             	</div>
         
-        </div>
+        
         </script>
+    </div>    
 </div>		
 
 <div id="maincontent" class="container">
