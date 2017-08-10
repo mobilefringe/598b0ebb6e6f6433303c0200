@@ -36,13 +36,13 @@
 	    </div>		
     </div>
 </div>
-<script id="banner_template" type="x-tmpl-mustache/text">
-    <div>
-        <a href="{{url}}" {{css}} onclick="{{noLink}}">
-    	    <div class="bottom image_medium" style="{{banner_image}}"></div>
-        </a>
-    </div>
-</script>
+// <script id="banner_template" type="x-tmpl-mustache/text">
+//     <div>
+//         <a href="{{url}}" {{css}} onclick="{{noLink}}">
+//     	    <div class="bottom image_medium" style="{{banner_image}}"></div>
+//         </a>
+//     </div>
+// </script>
 <script>
     $(document).ready(function(e){
         init(e);
