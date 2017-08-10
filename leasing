@@ -8,10 +8,10 @@
     <div class="sixteen clearfix content">
 	    <div class="four">
 	        <div class="left-sidebar top-padding">
-                <a href="http://www.20vic.com/leasing/" class="active">Overview</a>
-                <a href="http://www.20vic.com/leasing/retail-portfolio/" class="">Retail Portfolio</a>
-                <a href="http://www.20vic.com/leasing/office-portfolio/" class="">Office Portfolio</a>
-                <a href="http://www.20vic.com/leasing/other-portfolio/" class="">Other Portfolio</a>
+                <a href="/leasing" class="active">Overview</a>
+                <a href="/leasing/retail-portfolio" class="">Retail Portfolio</a>
+                <a href="/leasing/office-portfolio" class="">Office Portfolio</a>
+                <a href="/leasing/other-portfolio" class="">Other Portfolio</a>
             </div>	
         </div>	
 	    <div class="twelve pagecontent">	
