@@ -3,11 +3,11 @@
     <div class="slick-slider">
             
     
-                <div>
-                    <a href="{{url}}" {{css}} onclick="{{noLink}}">
-            		    <div class="bottom image_medium" style="background-image: url('{{photo_url_abs}}');"></div>
-            	    </a>
-            	</div>
+             <!--   <div>-->
+             <!--       <a href="{{url}}" {{css}} onclick="{{noLink}}">-->
+            	<!--	    <div class="bottom image_medium" style="background-image: url('{{photo_url_abs}}');"></div>-->
+            	<!--    </a>-->
+            	<!--</div>-->
 
     </div>    
 </div>		
