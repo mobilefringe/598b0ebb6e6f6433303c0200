@@ -32,34 +32,34 @@
                                     </li>
                                     <li id='field_1_2'>
                                         <label for='input_1_2'>Last name*</label>
-                                        <div class='ginput_container'>
-                                            <input name='input_2' id='input_1_2' type='text' value='' class='medium' required data-validation="required" tabindex="2"/>
-                                        </div>
+                                        <!--<div class='ginput_container'>-->
+                                        <input name='input_2' id='input_1_2' type='text' value='' class='medium' required data-validation="required" tabindex="2"/>
+                                        <!--</div>-->
                                     </li>
                                     <li id='field_1_6'>
                                         <label for='email' >Email*</label>
-                                        <div class='ginput_container'>
-                                            <input name='email' id='email' type='email' value='' class='medium' required data-validation="required" tabindex="3"/>
-                                        </div>
+                                        <!--<div class='ginput_container'>-->
+                                        <input name='email' id='email' type='email' value='' class='medium' required data-validation="required" tabindex="3"/>
+                                        <!--</div>-->
                                     </li>
                                     <li id='field_1_5'>
                                         <label for='message' >Comments</label>
-                                        <div class='ginput_container'>
-    					                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
-    				                    </div>
+                                        <!--<div class='ginput_container'>-->
+					                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
+    				                    <!--</div>-->
     			                    </li>
                                 </ul>
                             </div>
                             <div class='gform_footer top_label'> 
                                 <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  ' /> 
-                                <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
-                                <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+                                <!--<input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />-->
+                                <!--<input type='hidden' class='gform_hidden' name='gform_submit' value='1' />-->
                                 
-                                <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-                                <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjcxZTcyNTFkZjAzNmJiMDdhMDMyZjI4MjgzMTNjM2ZjIl0=' />
-                                <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
-                                <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
-                                <input type='hidden' name='gform_field_values' value='' />
+                                <!--<input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />-->
+                                <!--<input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjcxZTcyNTFkZjAzNmJiMDdhMDMyZjI4MjgzMTNjM2ZjIl0=' />-->
+                                <!--<input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />-->
+                                <!--<input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />-->
+                                <!--<input type='hidden' name='gform_field_values' value='' />-->
                             </div>
                         </form>
                     </div>
