@@ -1,12 +1,15 @@
 <div class="paused">Paused</div>
-<div class="slick-slider" id="banner_container">
-    <script id="banner_template" type="x-tmpl-mustache/text">
-        <div>
-            <a href="{{url}}" {{css}} onclick="{{noLink}}">
-    		    <div class="bottom image_medium" style="background-image: url('{{photo_url_abs}}');"></div>
-    	    </a>
-    	</div>
-    </script>
+
+<div class="slick-slider">
+    <div id="banner_container">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <div>
+                <a href="{{url}}" {{css}} onclick="{{noLink}}">
+        		    <div class="bottom image_medium" style="background-image: url('{{photo_url_abs}}');"></div>
+        	    </a>
+        	</div>
+        </script>
+    </div>
 </div>		
 
 <div id="maincontent" class="container">
