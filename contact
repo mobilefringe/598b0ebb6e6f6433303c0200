@@ -57,7 +57,7 @@
     </div>
 </div>
 	
-<script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>
+<!--<script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>-->
 
 <script>
     $(document).ready(function(e){
@@ -80,7 +80,30 @@
             }); 
             
             show_content();
+            
+            $.validate();
         }
         loadMallDataCached(renderAll); 
+        
+        $('#contact_form').submit(function(e) {
+            values = [];
+            values = JSON.stringify($('#contact_form').serializeArray());
+            e.preventDefault();
+            $.ajax({
+                url : "/api/v1/contact_us",
+                type: "POST",
+                data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                form_data: values },
+                success: function(data, textStatus, jqXHR) {
+                    $('#send_contact_success').fadeIn();
+                    $('#contact_form').find("input[type=text], input[type=email], textarea").val("");
+                    $('html, body').animate({scrollTop : 0},800);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $('#send_contact_error').fadeIn();
+                    $('html, body').animate({scrollTop : 0},800);
+                }
+            });
+        });
     });
 </script>
