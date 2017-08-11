@@ -1,31 +1,5 @@
 <div class="paused">Paused</div>
-<div class="slick-slider">
-
-	 
-				
-											<div>
-							<div class="bottom image_medium" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/Erin-Mill-development-14-1.jpg');">
-															</div>
-						</div>
-					 
-				
-											<div>
-							<div class="bottom image_medium" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/Halifax-Shopping-Centre-after-photos-4-1.jpg');">
-															</div>
-						</div>
-					 
-				
-											<div>
-							<div class="bottom image_medium" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/St_Vital_after.jpg');">
-															</div>
-						</div>
-					 
-				
-											<div>
-							<div class="bottom image_medium" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/07/core_redevelopment_after.jpg');">
-															</div>
-						</div>
-					</div>		
+<div class="slick-slider" id="banner_container"></div> 		
 
 <div id="maincontent" class="container">
     <div class="sixteen clearfix content">
@@ -46,11 +20,14 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            // var repo = getRepoDetailsByName("Tourism Banner");
-            // if (repo != undefined) {
-            //     var banner = getImageURL(repo.images[0].photo_url);
-            //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
-            // }
+            var repo = getRepoDetailsByName("Development Banner");
+            if (repo != undefined) {
+                var banner_images = repo.images;
+                $.each(banner_images, function(key, val) {
+                    var banner_img_url = val.photo_url_abs;
+                    $("<div><div class='bottom image_medium' style='background-image: url(" + banner_img_url + ");'></div></div>").appendTo("#banner_container");
+                });
+            }
             
             var prefix = get_prefix();
             var pages_json = prefix + "/pages/20vic-development.json"
@@ -63,6 +40,13 @@
             }); 
             
             show_content();
+            
+            $('.slick-slider').slick({
+                arrows: false,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 5000  
+            });
         }
         loadMallDataCached(renderAll); 
     });
