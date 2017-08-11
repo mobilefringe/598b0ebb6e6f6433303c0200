@@ -131,8 +131,7 @@ function renderPosts(container, template, collection){
         
         if(val.body.length > 155){
             val.description_short = val.body.substring(0, 154) + "...";
-        }
-        else{
+        } else {
             val.description_short = val.body;
         }
         val.description_short = val.description_short.replace("&amp;", "&");
