@@ -147,7 +147,6 @@ function renderPosts(container, template, collection){
         item_rendered.push(rendered);
         counter = counter + 1;
     });
-    
-    $(container).show();
+
     $(container).html(item_rendered.join(''));
 }
