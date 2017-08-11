@@ -49,7 +49,10 @@ function renderGallery(container, template, collection){
         } else {
             val.gallery_image = getImageURL(val.photo_url);
         }
-
+        
+        if(val.caption != undefined){
+            var caption_lowercase = val.caption.toLowerCase();
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
