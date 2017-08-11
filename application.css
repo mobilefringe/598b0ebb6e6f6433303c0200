@@ -291,20 +291,9 @@ textarea, div.modal-content, div.modal-content:focus,
   overflow: hidden;
 }
 
-
-
 /******************************************   NEWS   *********************************************/
 .news h3 { margin: 20px 0 0; }
 .news time { display:block; margin-bottom: 20px; color: #888; }
-
-
-
-
-
-
-
-
-
 
 /******************************************   SIDEBARS   *********************************************/
 
@@ -315,15 +304,12 @@ textarea, div.modal-content, div.modal-content:focus,
 .left-sidebar a.active    { color: #f57b20; }
 .left-sidebar.top-padding { padding-top: 0; }
 
-
 .breadcrumb         { padding: 1.2em 0;  margin-bottom: 1.2em; width: 90%; text-transform: capitalize; }
 .back-btn           { display: block; ; }
 .back-btn:before    { content: '\2190'; padding-right: 5px; }
 
-
 .left-sidebar .sidebar-pdf a { margin-top: 20px; background: url(img/pdf.png) center top no-repeat; line-height: 1.3em; padding: 50px 0 0; width: auto; display: inline-block; text-align: center; }
 .left-sidebar .sidebar-pdf small { font-size: 11px; }
-
 
 #location-tab, 
 #floorplan-tab,
@@ -331,10 +317,8 @@ textarea, div.modal-content, div.modal-content:focus,
 #listing-tab,
 #facts-tab  {display: none;}
 
-
 img.floorplan,
 img.tradeplan { max-width: 100%; }
-
 
 .single dl      { width: 100%; float: left; margin: 0 0 2em; }
 
@@ -344,16 +328,10 @@ img.tradeplan { max-width: 100%; }
 .single dt:first-of-type,
 .single dd:first-of-type    { border: none; }
 
-
 .single dt      { width: 100%; border-top: 1px #ccc solid; padding: 10px 0 2px; font-weight: 600; clear:left; }
 .single dd      { width: 100%; padding: 0 0 10px; }
 
-
-
-
-
 /* Office Portfolio Sidebar */
-
 
 #location-sidebar ul li       {text-align: left; line-height: 2em;}
 #search-sidebar         { text-align: center; }
@@ -656,15 +634,6 @@ EXTRA LARGE AND UP
   .mc4wp-form-fields .newsletter-submit { width: 100%; margin: 0; }
 }
 
-
-
-
-
-
-
-
-
-
 /********************************************* 
 
   PRINT STYLES
@@ -676,6 +645,4 @@ EXTRA LARGE AND UP
   .slick-slider, 
   .left-sidebar, 
   #footer { display: none; }
-
-
 }
