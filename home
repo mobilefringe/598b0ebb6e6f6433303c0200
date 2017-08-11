@@ -89,7 +89,7 @@ for the Red Cross in support of Fort McMurray relief efforts.</p>               
     				<a href="{{url}}">
     					<div class="featured-pic">
     					    <div class="color-overlay"></div>
-    						<div class="image-background" style="background-image: url(http://www.20vic.com/cms/wp-content/themes/20vic/img/homepage/20vic-bubble-sustainability.jpg);"></div>
+    						<div class="image-background" style="background-image: url({{image_url}});"></div>
     					</div>
     					<h3>{{name}}</h3>
     					<div class="line"></div>
