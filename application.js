@@ -109,3 +109,45 @@ function renderJobs(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
+
+function renderPosts(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    var counter = 1;
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( collection , function( key, val ) {
+        if (val.image_url.indexOf('missing.png') > -1) {
+            val.post_image = "//codecloud.cdn.speedyrails.net/sites/59282acb6e6f647d8d520100/image/jpeg/1502470554000/EventsPlaceholder@2x.jpg";
+        } else {
+            val.post_image = val.image_url;
+        }
+        
+        if(val.title.length > 45){
+            val.title_short = val.title.substring(0, 44) + "...";
+        } else {
+            val.title_short = val.title;
+        }
+        
+        if(val.body.length > 155){
+            val.description_short = val.body.substring(0, 154) + "...";
+        }
+        else{
+            val.description_short = val.body;
+        }
+        val.description_short = val.description_short.replace("&amp;", "&");
+        
+        val.slug = "posts/" + val.slug;
+        
+        val.twitter_title = val.title + " via @ShopTheGateway";
+
+        val.counter = counter;
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+        counter = counter + 1;
+    });
+    
+    $(container).show();
+    $(container).html(item_rendered.join(''));
+}
