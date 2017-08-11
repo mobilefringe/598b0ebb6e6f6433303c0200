@@ -83,20 +83,24 @@ for the Red Cross in support of Fort McMurray relief efforts.</p>               
 
 <div id="maincontent" class="container">
     <div class="sixteen clearfix content">
-	    <div class="pagecontent">		
-			<div class="one-third clearfix" id="feature_container">
-			    <script id="feature_template" type="x-tmpl-mustache/text">
-    				<a href="{{url}}">
-    					<div class="featured-pic">
-    					    <div class="color-overlay"></div>
-    						<div class="image-background" style="background-image: url({{image_url}});"></div>
-    					</div>
-    					<h3>{{name}}</h3>
-    					<div class="line"></div>
-    				</a>
-    				<p>{{description}}</p>
+	    <div class="pagecontent">
+	        <div id="feature_container">
+	            <script id="feature_template" type="x-tmpl-mustache/text">
+	                <div class="one-third clearfix">
+        				<a href="{{url}}">
+        					<div class="featured-pic">
+        					    <div class="color-overlay"></div>
+        						<div class="image-background" style="background-image: url({{image_url}});"></div>
+        					</div>
+        					<h3>{{name}}</h3>
+        					<div class="line"></div>
+        				</a>
+        				<p>{{description}}</p>
+    				</div>
     			</script>
-			</div>
+	        </div>
+			
+			
 	    </div>  
     </div>
 </div>
