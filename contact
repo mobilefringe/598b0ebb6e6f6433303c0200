@@ -31,7 +31,7 @@
                             <label for='email'>Email*</label>
                             <input id='email' name='email' type='email' required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
                             
-                            <input id="subject" name="subject" class="hide" type="text" placeholder="Subject" value"A Message From Your Website">
+                            <input id="subject" name="subject" class="hidden_now" type="text" placeholder="Subject" value"A Message From Your Website">
                             
                             <label for='message'>Comments</label>
 		                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
