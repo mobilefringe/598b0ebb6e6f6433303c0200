@@ -89,7 +89,7 @@ img.medium-width  { width: 100%; height: auto; }
 
 .nav-bar            { background: #6d6e71; font-weight: 600; }
 .nav-bar .container { position: relative; }
-.logo-link          { background: url(img/20vic-logo.png) center center no-repeat; width: 122px; height: 50px; margin: 0 0 0 1em; display: block; background-size: contain; }
+.logo-link          { background: url(//codecloud.cdn.speedyrails.net/sites/598b0ebb6e6f6433303c0200/image/png/1502462037000/20vic-logo.png) center center no-repeat; width: 122px; height: 50px; margin: 0 0 0 1em; display: block; background-size: contain; }
 .hide-text          { text-indent: 100%; white-space: nowrap; overflow: hidden; }
 
 
