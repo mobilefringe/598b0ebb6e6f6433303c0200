@@ -78,7 +78,7 @@ button              {background: #6d6e71; -webkit-appearance: none; border: none
 
 img.medium-width  { width: 100%; height: auto; }
 
-.hidden_now { display: none; }
+.hidden_now { display: none !important; }
 
 /******************************************   GRID   ***************************************************/
 
