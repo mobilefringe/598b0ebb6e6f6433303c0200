@@ -124,6 +124,8 @@ for the Red Cross in support of Fort McMurray relief efforts.</p>               
                 }
             }); 
             
+            var feature_items = getFeatureList();
+            renderFeatureItems('#feature_container','#feature_template', feature_items);
             show_content();
             
             $('.slick-slider').slick({
