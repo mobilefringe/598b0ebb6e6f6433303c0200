@@ -94,7 +94,7 @@ img.medium-width  { width: 100%; height: auto; }
 
 
 .header-menu-container        { display: none; }
-.navbar-toggle                { position: absolute; top: 5px; right: 1em; background-image: url(img/navicon.png); background-size: contain; }
+.navbar-toggle                { position: absolute; top: 5px; right: 1em; background-image: url(//codecloud.cdn.speedyrails.net/sites/598b0ebb6e6f6433303c0200/image/png/1502462142000/navicon.png); background-size: contain; }
 
 .navbar-collapse .menu            { padding: 20px 0 0; margin: 0; }
 .navbar-collapse .menu li         { font-size: 1.4rem; line-height: 3em; }
