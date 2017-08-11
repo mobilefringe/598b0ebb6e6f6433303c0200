@@ -86,7 +86,7 @@ for the Red Cross in support of Fort McMurray relief efforts.</p>               
 	    <div class="pagecontent">		
 			<div class="one-third clearfix" id="feature_container">
 			    <script id="feature_template" type="x-tmpl-mustache/text">
-    				<a href="/leasing/">
+    				<a href="/leasing">
     					<div class="featured-pic">
     					    <div class="color-overlay"></div>
     						<div class="image-background" style="background-image: url(http://www.20vic.com/cms/wp-content/themes/20vic/img/homepage/20vic-bubble-sustainability.jpg);"></div>
@@ -125,7 +125,9 @@ for the Red Cross in support of Fort McMurray relief efforts.</p>               
             }); 
             
             var feature_items = getFeatureList();
+            console.log(feature_items)
             renderFeatureItems('#feature_container','#feature_template', feature_items);
+            
             show_content();
             
             $('.slick-slider').slick({
