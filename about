@@ -34,8 +34,11 @@
             var repo = getRepoDetailsByName("About Banner");
             if (repo != undefined) {
                 var banner_images = repo.images;
+                console.log(banner_images)
                 $.each(banner_images, function(key, val) {
                     console.log("Hello!")
+                    var banner_img_url = 
+                    $("<div class='bottom image_medium' style=' + {{banner_image}} + '></div>").css({backgroundImage: "url(" + banner + ")"});
                 //     var container = $(".slick-slider");
                 //     // var gallery_slug = $(val).attr('source');
                 //     // gallery = getFashionBySlug(gallery_slug).fashion_images;
