@@ -47,7 +47,7 @@ function renderGallery(container, template, collection){
         if (val.photo_url.indexOf('missing.png') > -1) {
             val.gallery_image = "";
         } else {
-            val.gallery_image = "//www.mallmaverick.com" + val.photo_url;
+            val.gallery_image = "background-image:url(//www.mallmaverick.com" + val.photo_url + ");";
         }
 
         var rendered = Mustache.render(template_html,val);
