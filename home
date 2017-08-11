@@ -86,15 +86,15 @@ for the Red Cross in support of Fort McMurray relief efforts.</p>               
 	    <div class="pagecontent">		
 			<div class="one-third clearfix" id="feature_container">
 			    <script id="feature_template" type="x-tmpl-mustache/text">
-    				<a href="/leasing">
+    				<a href="{{url}}">
     					<div class="featured-pic">
     					    <div class="color-overlay"></div>
     						<div class="image-background" style="background-image: url(http://www.20vic.com/cms/wp-content/themes/20vic/img/homepage/20vic-bubble-sustainability.jpg);"></div>
     					</div>
-    					<h3>Leasing</h3>
+    					<h3>{{name}}</h3>
     					<div class="line"></div>
     				</a>
-    				<p>Our portfolio of properties is national in scope, and diverse in character.</p>
+    				<p>{{description}}</p>
     			</script>
 			</div>
 	    </div>  
