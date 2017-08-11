@@ -87,7 +87,7 @@ for the Red Cross in support of Fort McMurray relief efforts.</p>               
 	        <div id="feature_container">
 	            <script id="feature_template" type="x-tmpl-mustache/text">
 	                <div class="one-third clearfix">
-        				<a href="{{url}}">
+        				<a href="{{url}}" {{css}} onclick="{{noLink}}">
         					<div class="featured-pic">
         					    <div class="color-overlay"></div>
         						<div class="image-background" style="background-image: url({{image_url}});"></div>
