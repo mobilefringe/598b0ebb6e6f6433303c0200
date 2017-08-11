@@ -1,18 +1,34 @@
-<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2958" method="post" data-id="2958" data-name="20 VIC signup">
-    <div class="mc4wp-form-fields">
-        <div role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
-            <h4 id="dialog-title">Sign up for the 20VIC e-newsletter</h4> 
-            <p id="dialog-desc" class="newsletter-description">When you never rest, you always have news to share. Sign up below and stay up to date on all of 20VIC's news and updates.</p>
-            <label for=\"EMAIL" class="sr-only">Enter your email address</label> 
-            <input class="newsletter-email" type="email" name="EMAIL" required placeholder="Enter email"> 
-            <input class="newsletter-submit" type="submit" value="Sign up">
-        </div>
-        <div style="display: none;">
-            <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"/>
-        </div>
-        <input type="hidden" name="_mc4wp_timestamp" value="1502475074"/>
-        <input type="hidden" name="_mc4wp_form_id" value="2958"/>
-        <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"/>
-    </div>
-    <div class="mc4wp-response"></div>
-</form>
+<div id="boxzilla-2957" class="boxzilla boxzilla-2957 boxzilla-center boxzilla-newsletter-signup" style="background: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-width: 4px; max-width: 410px; overflow-y: auto; max-height: none; margin-top: 328.5px;"><div class="boxzilla-content"><h4 class=" first-child"></h4>
+<!-- MailChimp for WordPress v4.1.1 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2958" method="post" data-id="2958" data-name="20 VIC signup"><div class="mc4wp-form-fields"><div role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
+  <h4 id="dialog-title">
+    Sign up for the 20VIC e-newsletter
+  </h4>
+  <p id="dialog-desc" class="newsletter-description">
+      When you never rest, you always have news to share. Sign up below and stay up to date on all of 20VIC's news and updates.
+  </p>
+
+  <label for="EMAIL" class="sr-only">Enter your email address</label>
+  <input class="newsletter-email" type="email" name="EMAIL" required="" placeholder="Enter email">
+  <input class="newsletter-submit" type="submit" value="Sign up">
+</div><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></div><input type="hidden" name="_mc4wp_timestamp" value="1502475074"><input type="hidden" name="_mc4wp_form_id" value="2958"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
+</div><span class="boxzilla-close-icon">×</span></div>
+
+
+<!--<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2958" method="post" data-id="2958" data-name="20 VIC signup">-->
+<!--    <div class="mc4wp-form-fields">-->
+<!--        <div role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">-->
+<!--            <h4 id="dialog-title">Sign up for the 20VIC e-newsletter</h4> -->
+<!--            <p id="dialog-desc" class="newsletter-description">When you never rest, you always have news to share. Sign up below and stay up to date on all of 20VIC's news and updates.</p>-->
+<!--            <label for=\"EMAIL" class="sr-only">Enter your email address</label> -->
+<!--            <input class="newsletter-email" type="email" name="EMAIL" required placeholder="Enter email"> -->
+<!--            <input class="newsletter-submit" type="submit" value="Sign up">-->
+<!--        </div>-->
+<!--        <div style="display: none;">-->
+<!--            <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"/>-->
+<!--        </div>-->
+<!--        <input type="hidden" name="_mc4wp_timestamp" value="1502475074"/>-->
+<!--        <input type="hidden" name="_mc4wp_form_id" value="2958"/>-->
+<!--        <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"/>-->
+<!--    </div>-->
+<!--    <div class="mc4wp-response"></div>-->
+<!--</form>-->
