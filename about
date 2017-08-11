@@ -27,7 +27,6 @@
             var repo = getRepoDetailsByName("About Banner");
             if (repo != undefined) {
                 var banner_images = repo.images;
-                console.log(banner_images)
                 $.each(banner_images, function(key, val) {
                     var banner_img_url = val.photo_url_abs;
                     $("<div><div class='bottom image_medium' style='background-image: url(" + banner_img_url + ");'></div></div>").appendTo("#banner_container");
