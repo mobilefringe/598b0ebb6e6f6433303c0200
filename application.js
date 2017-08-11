@@ -136,9 +136,9 @@ function renderPosts(container, template, collection){
         }
         val.description_short = val.description_short.replace("&amp;", "&");
         
-        val.slug = "posts/" + val.slug;
+
         
-        val.twitter_title = val.title + " via @ShopTheGateway";
+   
 
         val.counter = counter;
         
