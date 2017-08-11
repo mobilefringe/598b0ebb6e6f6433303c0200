@@ -1,5 +1,6 @@
 <div class="paused">Paused</div>
 <div class="slick-slider" id="banner_container"></div>    
+
 <div id="maincontent" class="container">
     <div class="sixteen clearfix content">
 	    <div class="four">
