@@ -54,6 +54,7 @@ function renderGallery(container, template, collection){
             var caption_lowercase = val.caption.toLowerCase();
             val.team_url = caption_lowercase.replace(/\s+/g, '-');
         }
+        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
