@@ -78,7 +78,7 @@
     <!--<link rel='stylesheet' id='magnific_popup_css-css'  href='http://www.20vic.com/cms/wp-content/themes/20vic/js/magnific-popup/magnific-popup.css?ver=4.7.5' type='text/css' media='all' />-->
     <!--<link rel='stylesheet' id='20vic-css'  href='http://www.20vic.com/cms/wp-content/themes/20vic/style.css?ver=4.7.5' type='text/css' media='all' />-->
     
-    <link rel='stylesheet' id='20vic-css' href="/application.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='20vic-css' href="/application.css" type='text/css' media='all'/>
     
     <!--Javascript-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
