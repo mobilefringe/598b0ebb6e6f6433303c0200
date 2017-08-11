@@ -1,12 +1,12 @@
 <div class="paused">Paused</div>
 <div class="slick-slider" id="banner_container">
-    <script id="banner_template" type="x-tmpl-mustache/text">
+    <!--<script id="banner_template" type="x-tmpl-mustache/text">-->
         
-            <a href="{{url}}" {{css}} onclick="{{noLink}}">
-        	    <div class="bottom image_medium" style="{{banner_image}}"></div>
-            </a>
+    <!--        <a href="{{url}}" {{css}} onclick="{{noLink}}">-->
+    <!--    	    <div class="bottom image_medium" style="{{banner_image}}"></div>-->
+    <!--        </a>-->
         
-    </script>
+    <!--</script>-->
 </div>    
 <div id="maincontent" class="container">
     <div class="sixteen clearfix content">
@@ -36,16 +36,15 @@
                 var banner_images = repo.images;
                 console.log(banner_images)
                 $.each(banner_images, function(key, val) {
-                    console.log("Hello!")
-                    // var banner_img_url = 
-                    // $("<div class='bottom image_medium' style=' + {{banner_image}} + '></div>").css({backgroundImage: "url(" + banner + ")"});
+                    var banner_img_url = val.photo_url_abs;
+                    $("<div><div class='bottom image_medium' style='background-image: url(" + banner_img_url + ");'></div></div>").appendTo(".slick-slider") 
                 //     var container = $(".slick-slider");
                 //     // var gallery_slug = $(val).attr('source');
                 //     // gallery = getFashionBySlug(gallery_slug).fashion_images;
                 //     renderBanner(container, "#banner_template", banner_images);
                 });
                 
-                renderBanner("#banner_container", "#banner_template", banner_images);
+                // renderBanner("#banner_container", "#banner_template", banner_images);
             }
             
             var prefix = get_prefix();
