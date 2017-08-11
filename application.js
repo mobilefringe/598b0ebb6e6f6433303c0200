@@ -53,7 +53,7 @@ function renderGallery(container, template, collection){
         if(val.caption != undefined){
             var caption_lowercase = val.caption.toLowerCase();
             console.log(caption_lowercase)
-            val.team_url = caption_lowercase.replace(/\s+/g, '');
+            val.team_url = caption_lowercase.replace(/\s+/g, '-');
             console.log(val.team_url)
         }
         var rendered = Mustache.render(template_html,val);
