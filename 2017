@@ -42,6 +42,17 @@
             
             var blog_posts = getBlogDataBySlug("20vic-news").posts;
             console.log(blog_posts)
+
+            var posts_by_year = [];
+            $.each(blog_posts, function(key, val){
+                today = moment();
+                published_on = moment(val.publish_date);
+                console.log(published_on)
+                if (today.tz(getPropertyTimeZone()) >= published_on.tz(getPropertyTimeZone())) {
+                    posts_by_year.push(val);
+                }
+            });
+                
             renderPosts('#posts_container', '#posts_template', blog_posts);
             
             show_content();
