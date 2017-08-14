@@ -59,7 +59,6 @@
             
             show_content();
             
-            
             $('.slick-slider').slick({
                 arrows: false,
                 dots: true,
