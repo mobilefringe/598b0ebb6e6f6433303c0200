@@ -48,9 +48,9 @@
                 today = moment();
                 published_on = moment(val.publish_date).format("YYYY");
                 console.log(published_on)
-                if (today.tz(getPropertyTimeZone()) >= published_on.tz(getPropertyTimeZone())) {
-                    posts_by_year.push(val);
-                }
+                // if (today.tz(getPropertyTimeZone()) >= published_on.tz(getPropertyTimeZone())) {
+                //     posts_by_year.push(val);
+                // }
             });
                 
             renderPosts('#posts_container', '#posts_template', blog_posts);
