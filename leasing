@@ -1,9 +1,6 @@
 <div class="paused">Paused</div>
-<div class="slick-slider">
-    <div>
-		<div class="bottom image_medium" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/11/The-Core6-OFW.jpg');"></div>
-	</div>
-</div>		
+<div class="slick-slider" id="banner_container"></div>
+
 <div id="maincontent" class="container">
     <div class="sixteen clearfix content">
 	    <div class="four">
@@ -24,11 +21,14 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            // var repo = getRepoDetailsByName("Tourism Banner");
-            // if (repo != undefined) {
-            //     var banner = getImageURL(repo.images[0].photo_url);
-            //     $(".page_header").css({backgroundImage: "url(" + banner + ")"});
-            // }
+            var repo = getRepoDetailsByName("About Banner");
+            if (repo != undefined) {
+                var banner_images = repo.images;
+                $.each(banner_images, function(key, val) {
+                    var banner_img_url = val.photo_url_abs;
+                    $("<div><div class='bottom image_medium' style='background-image: url(" + banner_img_url + ");'></div></div>").appendTo("#banner_container");
+                });
+            }
             
             var prefix = get_prefix();
             var pages_json = prefix + "/pages/20vic-leasing.json"
@@ -41,6 +41,13 @@
             }); 
             
             show_content();
+            
+            $('.slick-slider').slick({
+                arrows: false,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 5000  
+            });
         }
         loadMallDataCached(renderAll); 
     });
