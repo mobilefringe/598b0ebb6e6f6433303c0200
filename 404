@@ -1,0 +1,12 @@
+<div class="paused">Paused</div>
+<div class="slick-slider" id="banner_container"></div>    
+		
+
+<div id="maincontent" class="container">
+    <div class="sixteen clearfix content left-sidebar">
+        <div class="sixteen pagecontent">
+            <h2>This page doesn't exist!</h2>
+            <p>Visit our <a style="display:inline;" href="/">homepage</a> or use the navigation above to find the page you're looking for.</p>
+        </div>
+    </div>
+</div>
