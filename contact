@@ -89,7 +89,5 @@
             });
         }
         loadMallDataCached(renderAll); 
-        
-        
     });
 </script>
