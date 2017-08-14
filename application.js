@@ -159,6 +159,13 @@ function renderPostDetails(container, template, collection){
         // } else {
         //     val.image_url = val.image_url;
         // }
+        if(val.image_url.indexOf('missing.png') > -1){
+            $("<div><div class='bottom image_medium' style='background-image: url(//codecloud.cdn.speedyrails.net/sites/598b0ebb6e6f6433303c0200/image/jpeg/1502482790000/1400x500-News-header.jpg);'></div></div>").appendTo("#banner_container");    
+        } else {
+            var banner_img_url = val.image_url;
+            $("<div><div class='bottom image_medium' style='background-image: url(" + banner_img_url + ");'></div></div>").appendTo("#banner_container");
+        }
+        
         
         var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
         val.publish_date = published_on.format("MMMM Do, YYYY");
