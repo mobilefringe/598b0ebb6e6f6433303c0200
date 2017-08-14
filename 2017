@@ -12,14 +12,18 @@
             	<li><a href='/2016'>2016</a></li>
             </div>
         </div>
-
-        <div id="posts_container">
-            <script id="posts_template" type="x-tmpl-mustache">
-                <h3><a href="/about/news/{{slug}}">{{title}}</a></h3>
-                <time><em>{{published_on}}</em></time>
-                <p>{{description_short}}</p>
-                <a href="/about/news/{{slug}}" style="color:#f57b20 ;">Read More &gg;</a>
-            </script>
+        <div class="twelve pagecontent news">
+            <h1>News</h1>
+            <h2>Year: 2017 </h2>
+            <hr>
+            <div id="posts_container">
+                <script id="posts_template" type="x-tmpl-mustache">
+                    <h3><a href="/about/news/{{slug}}">{{title}}</a></h3>
+                    <time><em>{{published_on}}</em></time>
+                    <p>{{description_short}}</p>
+                    <a href="/about/news/{{slug}}" style="color:#f57b20 ;">Read More &gg;</a>
+                </script>
+            </div>
         </div>
     </div>
 </div>
