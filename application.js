@@ -161,7 +161,7 @@ function renderPostDetails(container, template, collection){
         }
         
         var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
-        val.publish_date = published_on.format("MMM DD, YYYY");
+        val.publish_date = published_on.format("MMM D, YYYY");
 
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
