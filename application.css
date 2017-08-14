@@ -295,6 +295,8 @@ textarea, div.modal-content, div.modal-content:focus,
 .news h3 { margin: 20px 0 0; }
 .news time { display:block; margin-bottom: 20px; color: #888; }
 
+.page_content img { margin: 0.5em 0 0 1.2em; }
+
 /******************************************   SIDEBARS   *********************************************/
 
 /* Generic Sidebar Elements/Styles */
