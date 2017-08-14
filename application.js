@@ -117,17 +117,17 @@ function renderPosts(container, template, collection){
     var counter = 1;
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
-        if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "//codecloud.cdn.speedyrails.net/sites/59282acb6e6f647d8d520100/image/jpeg/1502470554000/EventsPlaceholder@2x.jpg";
-        } else {
-            val.post_image = val.image_url;
-        }
+        // if (val.image_url.indexOf('missing.png') > -1) {
+        //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/59282acb6e6f647d8d520100/image/jpeg/1502470554000/EventsPlaceholder@2x.jpg";
+        // } else {
+        //     val.post_image = val.image_url;
+        // }
         
-        if(val.title.length > 45){
-            val.title_short = val.title.substring(0, 44) + "...";
-        } else {
-            val.title_short = val.title;
-        }
+        // if(val.title.length > 45){
+        //     val.title_short = val.title.substring(0, 44) + "...";
+        // } else {
+        //     val.title_short = val.title;
+        // }
         
         if(val.body.length > 155){
             val.description_short = val.body.substring(0, 154) + "...";
@@ -145,7 +145,6 @@ function renderPosts(container, template, collection){
         item_rendered.push(rendered);
         counter = counter + 1;
     });
-
     $(container).html(item_rendered.join(''));
 }
 
@@ -154,18 +153,12 @@ function renderPostDetails(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     $.each( collection , function( key, val ) {
-        // if (val.image_url.indexOf('missing.png') > -1) {
-        //     val.image_url = "//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497456745000/cornwall_logo.png";
-        // } else {
-        //     val.image_url = val.image_url;
-        // }
         if(val.image_url.indexOf('missing.png') > -1){
             $("<div><div class='bottom image_medium' style='background-image: url(//codecloud.cdn.speedyrails.net/sites/598b0ebb6e6f6433303c0200/image/jpeg/1502482790000/1400x500-News-header.jpg);'></div></div>").appendTo("#banner_container");    
         } else {
             var banner_img_url = val.image_url;
             $("<div><div class='bottom image_tall' style='background-image: url(" + banner_img_url + ");'></div></div>").appendTo("#banner_container");
         }
-        
         
         var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
         val.publish_date = published_on.format("MMMM Do, YYYY");
