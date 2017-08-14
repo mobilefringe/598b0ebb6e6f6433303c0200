@@ -136,10 +136,9 @@ function renderPosts(container, template, collection){
         }
         val.description_short = val.description_short.replace("&amp;", "&");
         
-
+        var date_blog = moment(val.publish_date).tz(getPropertyTimeZone());
+        val.published_on = date_blog.format('MMM DD, YYYY');
         
-   
-
         val.counter = counter;
         
         var rendered = Mustache.render(template_html,val);
