@@ -21,7 +21,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var repo = getRepoDetailsByName("About Banner");
+            var repo = getRepoDetailsByName("Leasing Banner");
             if (repo != undefined) {
                 var banner_images = repo.images;
                 $.each(banner_images, function(key, val) {
