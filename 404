@@ -1,6 +1,5 @@
 <div class="paused">Paused</div>
 <div class="slick-slider" id="banner_container"></div>    
-		
 
 <div id="maincontent" class="container">
     <div class="sixteen clearfix content left-sidebar">
@@ -10,3 +9,30 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            // var repo = getRepoDetailsByName("About Banner");
+            // if (repo != undefined) {
+            //     var banner_images = repo.images;
+            //     $.each(banner_images, function(key, val) {
+            //         var banner_img_url = val.photo_url_abs;
+                    $("<div><div class='bottom image_medium' style='background-image: url(//codecloud.cdn.speedyrails.net/sites/598b0ebb6e6f6433303c0200/image/jpeg/1502482790000/1400x500-News-header.jpg);'></div></div>").appendTo("#banner_container");
+            //     });
+            // }
+            
+            
+            
+            show_content();
+            
+            $('.slick-slider').slick({
+                arrows: false,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 5000  
+            });
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
