@@ -41,6 +41,7 @@
             }
             
             var blog_posts = getBlogDataBySlug("20vic-news").posts;
+            console.log(blog_posts)
             renderPosts('#posts_container', '#posts_template', blog_posts);
             
             show_content();
