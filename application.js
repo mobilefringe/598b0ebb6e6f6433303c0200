@@ -148,3 +148,23 @@ function renderPosts(container, template, collection){
 
     $(container).html(item_rendered.join(''));
 }
+
+function renderPostDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    $.each( collection , function( key, val ) {
+        // if (val.image_url.indexOf('missing.png') > -1) {
+        //     val.image_url = "//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497456745000/cornwall_logo.png";
+        // } else {
+        //     val.image_url = val.image_url;
+        // }
+        
+        var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
+        val.publish_date = published_on.format("MMMM Do, YYYY");
+
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
