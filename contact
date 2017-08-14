@@ -34,7 +34,7 @@
 		                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
                         </div>
                         <div class='gform_footer top_label'> 
-                            <button class="submit_btn gform_button button" tabindex="5">Submit</button>
+                            <button id="submit" class="submit_btn gform_button button" type="submit" tabindex="5">Submit</button>
                         </div>
                     </form>
                 </div>
