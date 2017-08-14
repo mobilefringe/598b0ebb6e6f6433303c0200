@@ -1,0 +1,53 @@
+<div class="paused">Paused</div>
+<div class="slick-slider" id="banner_container"></div> 		
+
+<div id="maincontent" class="container">
+    <div class="sixteen clearfix content left-sidebar">
+        <div class="four">
+            <div id="news-sidebar" class="left-sidebar">
+                <div class="breadcrumb">
+  	                <a class="back-btn" href="/about/news/">News</a>
+                </div>
+              	<li><a href='/2017'>2017</a></li>
+            	<li><a href='/2016'>2016</a></li>
+            </div>
+        </div>
+
+        <div id="posts_container">
+            <script id="posts_template" type="x-tmpl-mustache">
+                <h3><a href="/about/news/{{slug}}">{{title}}</a></h3>
+                <time><em>{{published_on}}</em></time>
+                <p>{{description_short}}</p>
+                <a href="/about/news/{{slug}}" style="color:#f57b20 ;">Read More &gg;</a>
+            </script>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var repo = getRepoDetailsByName("News Banner");
+            if (repo != undefined) {
+                var banner_images = repo.images;
+                $.each(banner_images, function(key, val) {
+                    var banner_img_url = val.photo_url_abs;
+                    $("<div><div class='bottom image_medium' style='background-image: url(" + banner_img_url + ");'></div></div>").appendTo("#banner_container");
+                });
+            }
+            
+            var blog_posts = getBlogDataBySlug("20vic-news").posts;
+            renderPosts('#posts_container', '#posts_template', blog_posts);
+            
+            show_content();
+            
+            $('.slick-slider').slick({
+                arrows: false,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 5000  
+            });
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
