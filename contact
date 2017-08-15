@@ -20,22 +20,22 @@
                             <span class='gform_description'></span>
                         </div>
                         <!--<div class='gform_body'>-->
-                        <div>
+                        <div class='gform_body'>
                             <label for='first_name'>First name*</label>
                             <input id='first_name' class="form-control" name='first_name' type='text' required data-validation="required" tabindex="1"/>
                         </div>
-                        <div>
+                        <div class='gform_body'>
                             <label for='last_name'>Last name*</label>
                             <input id='last_name' class="form-control" name='last_name' type='text' required data-validation="required" tabindex="2"/>
                         </div>
-                        <div>
+                        <div class='gform_body'>
                             <label for='email'>Email*</label>
                             <input id='email' class='form-control' name='email' type='email' required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
                         </div>
-                        <div>
+                        <div class='gform_body'>
                             <input id="subject" name="subject" class="hidden_now" type="text" placeholder="Subject" value"A Message From Your Website">
                         </div>
-                        <div>
+                        <div class='gform_body'>
                             <label for='message'>Comments</label>
 		                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
                         </div>
