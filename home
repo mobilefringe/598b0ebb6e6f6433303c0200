@@ -1,34 +1,4 @@
-<style>
-    #myModal {
-        margin: 0;
-        padding: 25px;
-        max-width: 410px;
-        height: 303px;
-        box-sizing: border-box;
-        border: 0;
-        
-    }
-    .modal-body {
-        overflow-y: initial;
-        max-height: none;
-        padding: 0;
-    }
-    .close {
-            
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 6px;
-    
-    }
-    .close span {
-        height: auto;
-    width: auto;
-        line-height: 20px;
-    font-size: 40px;
-    font-family: 'Raleway', sans-serif;
-    }
-</style>
+
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
