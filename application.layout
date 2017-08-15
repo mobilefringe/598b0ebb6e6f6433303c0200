@@ -109,7 +109,7 @@
 	<div class="nav-bar">
 		<div class="container">
 		    <div id="language">
-    		    <div class="lang_sel_list_horizontal wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal" id="lang_sel_list">
+    		    <div class="lang_sel_list_horizontal wpml-ls wpml-ls-legacy-list-horizontal" id="lang_sel_list">
     	            <ul>
     	                <li class="icl-en wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
     				        <a href="http://www.20vic.com/" class="lang_sel_sel"><span class="wpml-ls-native icl_lang_sel_native">EN</span></a>
