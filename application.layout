@@ -184,17 +184,17 @@
                     <li>
                         <a href="/advisory" data-i18n="nav.advisory">Advisory</a>
                     </li>
-                    <li>
-                        <a href="/leasing" data-i18n="nav.leasing">Leasing</a>
+                    <li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-423">
+                        <a href="/leasing">Leasing</a>
                         <ul class="sub-menu">
-	                        <li>
-	                            <a href="/leasing/retail-portfolio" data-i18n="nav.subnav.retail_portfolio">Retail Portfolio</a>
+	                        <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
+	                            <a href="/leasing/retail-portfolio">Retail Portfolio</a>
                             </li>
-	                        <li>
-	                            <a href="/leasing/office-portfolio" data-i18n="nav.subnav.office_portfolio">Office Portfolio</a>
+	                        <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+	                            <a href="/leasing/office-portfolio">Office Portfolio</a>
                             </li>
-	                        <li>
-	                            <a href="/leasing/other-portfolio" data-i18n="nav.subnav.other_portfolio">Other Portfolio</a>
+	                        <li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439">
+	                            <a href="/leasing/other-portfolio">Other Portfolio</a>
                             </li>
                         </ul>
                     </li>
