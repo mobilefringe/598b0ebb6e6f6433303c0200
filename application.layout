@@ -173,11 +173,11 @@
                     <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18">
                         <a href="/development">Development</a>
                         <ul class="sub-menu">
-	                        <li id="menu-item-2311" class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2311">
-	                            <a href="/development/in-progress">In-Progress Projects</a>
+	                        <li>
+	                            <a href="/development/in-progress" data-i18n="nav.subnav.in_progress_projects">In-Progress Projects</a>
                             </li>
-	                        <li id="menu-item-2310" class="menu-item menu-item-type-taxonomy menu-item-object-developments menu-item-2310">
-	                            <a href="/development/completed">Completed Projects</a>
+	                        <li>
+	                            <a href="/development/completed" data-i18n="nav.subnav.completed_projects">Completed Projects</a>
                             </li>
                         </ul>
                     </li>
