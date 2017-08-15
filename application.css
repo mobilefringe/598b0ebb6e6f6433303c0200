@@ -293,7 +293,7 @@ textarea, div.modal-content, div.modal-content:focus,
 .modal, div.team-member a, a, .button, .close, button
                   {-webkit-appearance: none !important;-moz-appearance: none !important;-ms-appearance: none !important;appearance: none !important;outline: 0 none !important;box-shadow: none !important;-webkit-box-shadow:none !important;-moz-box-shadow: none !important;-o-box-shadow: none !important;}
 */
-#contact_form label { margin-top: 5px; margin-bottom: 0; }
+#contact_form label { margin-bottom: 0; }
 #contact_form .form-control { margin-top: 5px; margin-bottom: 25px; }
 
 .help-block { margin-top: -22px; margin-bottom: 0; font-size: 12px; }
