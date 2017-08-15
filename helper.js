@@ -1,16 +1,11 @@
 function init() {
+    // Center pop-up window horizontally and vertically based on window sized.
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
     var boxHeight = $('.modal-dialog').height();
     var boxWidth = $('.modal-dialog').width();
     $('#myModal').css({'left' : ((windowWidth - boxWidth)/2), 'top' : ((windowHeight - boxHeight)/2)});
-    // $('.slick-slider').slick({
-    //     arrows: false,
-    //     dots: true,
-    //     autoplay: true,
-    //     autoplaySpeed: 5000  
-    // });
-  
+    
     // Pausing the slick slider on mouseover
     $.fn.slickPause = function() {
         var _ = this;
@@ -29,7 +24,6 @@ function init() {
             element.slick.paused = true;
         });
     };
-
 
     $( ".slick-slider" ).mouseover(function() {
         $( ".paused" ).show();
