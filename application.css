@@ -294,7 +294,7 @@ textarea, div.modal-content, div.modal-content:focus,
                   {-webkit-appearance: none !important;-moz-appearance: none !important;-ms-appearance: none !important;appearance: none !important;outline: 0 none !important;box-shadow: none !important;-webkit-box-shadow:none !important;-moz-box-shadow: none !important;-o-box-shadow: none !important;}
 */
 #contact_form label { margin-bottom: 0; }
-#contact_form .form-control { margin-top: 5px; margin-bottom: 25px; }
+#contact_form .form-control { margin-top: 5px; margin-bottom: 30px; }
 
 .help-block { margin-top: -20px; margin-bottom: 0; font-size: 13px; }
 
