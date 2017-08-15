@@ -191,7 +191,7 @@
                 </ul>
             </div>			
 			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".mobile-navbar-collapse"></button>
-			<div class="navbar-collapse">
+			<div class="navbar-collapse mobile-navbar-collapse">
 				<div class="menu-main-menu-container">
 				    <ul id="menu-main-menu-1" class="menu">
 				        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424">
