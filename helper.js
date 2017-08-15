@@ -1,5 +1,9 @@
 function init() {
-    
+    var windowHeight = $(window).height();
+    var windowWidth = $(window).width();
+    var boxHeight = $('.modal-dialog').height();
+    var boxWidth = $('.modal-dialog').width();
+    $('#myModal').css({'left' : ((windowWidth - boxWidth)/2), 'top' : ((windowHeight - boxHeight)/2)});
     // $('.slick-slider').slick({
     //     arrows: false,
     //     dots: true,
