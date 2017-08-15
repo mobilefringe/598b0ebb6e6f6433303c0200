@@ -19,61 +19,61 @@
 
 
 <div class="paused">Paused</div>
-<div class="slick-slider">
-    <div>
-	    <div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/HOMEPAGE-ADVISORY-OFW.jpg');">
-			<div class="slider_gradient"></div>
-			<div class="slide-caption">
-				<div class="text-wrapper">
-					<h1><p>DRIVEN BY CHALLENGE<br />
-COMMITTED TO RESULTS<br />
-BOUND BY TRUST</p>
-</h1>                                            										</div>
-									</div>
-															</div>
-						</div>
+<div class="slick-slider" id="banner_container"></div>
+    <!--<div>-->
+<!--	    <div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/HOMEPAGE-ADVISORY-OFW.jpg');">-->
+<!--			<div class="slider_gradient"></div>-->
+<!--			<div class="slide-caption">-->
+<!--				<div class="text-wrapper">-->
+<!--					<h1><p>DRIVEN BY CHALLENGE<br />-->
+<!--COMMITTED TO RESULTS<br />-->
+<!--BOUND BY TRUST</p>-->
+<!--</h1>                                            										</div>-->
+<!--									</div>-->
+<!--															</div>-->
+<!--						</div>-->
 					 
 				
-											<div>
-							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/20vic-large-home4.jpg');">
-								                  <div class="slider_gradient"></div>
-									<div class="slide-caption">
-										<div class="text-wrapper">
-											<h1><p>PROGRESSIVE THINKING<br />
-INNOVATIVE DESIGN<br />
-ATTENTION TO DETAIL</p>
-</h1>                                            										</div>
-									</div>
-															</div>
-						</div>
+<!--											<div>-->
+<!--							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/20vic-large-home4.jpg');">-->
+<!--								                  <div class="slider_gradient"></div>-->
+<!--									<div class="slide-caption">-->
+<!--										<div class="text-wrapper">-->
+<!--											<h1><p>PROGRESSIVE THINKING<br />-->
+<!--INNOVATIVE DESIGN<br />-->
+<!--ATTENTION TO DETAIL</p>-->
+<!--</h1>                                            										</div>-->
+<!--									</div>-->
+<!--															</div>-->
+<!--						</div>-->
 					 
 				
-											<div>
-							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/10/20-Vic-All-buildings-together.jpg');">
-								                  <div class="slider_gradient"></div>
-									<div class="slide-caption">
-										<div class="text-wrapper">
-											<h1><p>UNCOVERING POTENTIAL<br />
-CREATING VALUE<br />
-DELIVERING RESULTS</p>
-</h1>                                            										</div>
-									</div>
-															</div>
-						</div>
+<!--											<div>-->
+<!--							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/10/20-Vic-All-buildings-together.jpg');">-->
+<!--								                  <div class="slider_gradient"></div>-->
+<!--									<div class="slide-caption">-->
+<!--										<div class="text-wrapper">-->
+<!--											<h1><p>UNCOVERING POTENTIAL<br />-->
+<!--CREATING VALUE<br />-->
+<!--DELIVERING RESULTS</p>-->
+<!--</h1>                                            										</div>-->
+<!--									</div>-->
+<!--															</div>-->
+<!--						</div>-->
 					 
 				
-											<div>
-							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/Halifax-Shopping-Centre-homepage-header.jpg');">
-								                  <div class="slider_gradient"></div>
-									<div class="slide-caption">
-										<div class="text-wrapper">
-											<h1><p>Two Cities One Heart</p>
-</h1>                      <p>Halifax Shopping Centre and 20 Vic Management raise $50,000 
-for the Red Cross in support of Fort McMurray relief efforts.</p>                      <a href="/two-cities-one-heart/">Read More</a>										</div>
-									</div>
-															</div>
-						</div>
-					</div>		
+<!--											<div>-->
+<!--							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/Halifax-Shopping-Centre-homepage-header.jpg');">-->
+<!--								                  <div class="slider_gradient"></div>-->
+<!--									<div class="slide-caption">-->
+<!--										<div class="text-wrapper">-->
+<!--											<h1><p>Two Cities One Heart</p>-->
+<!--</h1>                      <p>Halifax Shopping Centre and 20 Vic Management raise $50,000 -->
+<!--for the Red Cross in support of Fort McMurray relief efforts.</p>                      <a href="/two-cities-one-heart/">Read More</a>										</div>-->
+<!--									</div>-->
+<!--															</div>-->
+<!--						</div>-->
+<!--					</div>		-->
 
 <div class="callout">
 	<h2>Managing your investments on a foundation of confidence.</h2>
