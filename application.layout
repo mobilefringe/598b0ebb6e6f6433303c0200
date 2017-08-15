@@ -182,7 +182,7 @@
                         </ul>
                     </li>
                     <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19">
-                        <a href="/advisory">Advisory</a>
+                        <a href="/advisory" data-i18n="nav.advisory">Advisory</a>
                     </li>
                     <li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-423">
                         <a href="/leasing">Leasing</a>
