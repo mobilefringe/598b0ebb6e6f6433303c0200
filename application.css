@@ -121,7 +121,7 @@ img.medium-width  { width: 100%; height: auto; }
 #language a:hover { background: #f57b20; }
 
 .wpml-ls-legacy-list-horizontal { border: 1px solid transparent; padding: 7px; clear: both; }
-
+.wpml-ls-legacy-list-horizontal>ul { padding: 0; margin: 0 !important; list-style-type: none; }
 .wpml-ls-statics-shortcode_actions a { background: transparent !important; }
 .wpml-ls-statics-shortcode_actions a:hover { background: #f57b20 !important; }
 
