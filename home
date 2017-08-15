@@ -110,7 +110,7 @@
             if (banner_images != undefined) {
                 console.log(banner_images)
                 $.each(banner_images, function(key, val) {
-                    var banner_img_url = val.photo_url_abs;
+                    var banner_img_url = val.image_url;
                     var banner_message = val.name;
                     $("<div><div class='bottom image_tall' style='background-image: url(" + banner_img_url + ");'></div><div class='slider_gradient'></div><div class='slide-caption'><div class='text-wrapper'><h1>" + banner_message + "</h1></div></div></div>").appendTo("#banner_container");
                 });
