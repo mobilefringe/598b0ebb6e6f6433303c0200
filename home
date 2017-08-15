@@ -22,7 +22,7 @@
     padding: 6px;
     line-height: 20px;
     font-size: 40px;
-    font-family: "Raleway";
+    font-family: 'Raleway', sans-serif;
     }
 </style>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
