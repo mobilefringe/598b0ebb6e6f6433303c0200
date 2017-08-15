@@ -207,7 +207,7 @@
 			<div class="collapse navbar-collapse mobile-navbar-collapse">
 				<div class="menu-main-menu-container">
 				    <ul id="menu-main-menu-1" class="menu">
-				        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424">
+				        <li>
 				            <a href="/about" data-i18n="nav.about">About</a>
                             <ul class="sub-menu">
                             	<li>
@@ -227,7 +227,7 @@
                         	    </li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34">
+                        <li>
                             <a href="/sustainability" data-i18n="nav.sustainability">Sustainability</a>
                             <ul class="sub-menu">
                             	<li>
@@ -241,7 +241,7 @@
                         	    </li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18">
+                        <li>
                             <a href="/development" data-i18n="nav.development">Development</a>
                             <ul class="sub-menu">
                             	<li>
@@ -252,10 +252,10 @@
                         	    </li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19">
+                        <li>
                             <a href="/advisory" data-i18n="nav.advisory">Advisory</a>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-423">
+                        <li>
                             <a href="/leasing" data-i18n="nav.leasing">Leasing</a>
                             <ul class="sub-menu">
                             	<li>
@@ -269,7 +269,7 @@
                     	        </li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                        <li>
                             <a href="/contact">Contact</a>
                         </li>
                     </ul>
