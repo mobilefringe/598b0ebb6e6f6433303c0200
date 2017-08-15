@@ -117,7 +117,7 @@
                             <div class='slider_gradient'></div>\
                             <div class='slide-caption'>\
                                 <div class='text-wrapper'>\
-                                    <h1>" + banner_message + "</h1>\
+                                    <h1><p>" + banner_message + "</p></h1>\
                                 </div>\
                             </div>\
                         </div>\
