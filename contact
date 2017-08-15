@@ -19,7 +19,7 @@
                             <h3 class='gform_title'>Contact Form</h3>
                             <span class='gform_description'></span>
                         </div>
-                        <div class='gform_body'>
+                        <!--<div class='gform_body'>-->
                             <label for='first_name'>First name*</label>
                             <input id='first_name' class="form-control" name='first_name' type='text' required data-validation="required" tabindex="1"/>
                             
@@ -33,7 +33,7 @@
                             
                             <label for='message'>Comments</label>
 		                    <textarea name='message' id='message' class='textarea medium' rows='10' cols='50' tabindex="4"></textarea>
-                        </div>
+                        <!--</div>-->
                         <div class='gform_footer top_label'> 
                             <button id="submit" class="submit_btn gform_button button" type="submit" tabindex="5">Submit</button>
                         </div>
