@@ -1,79 +1,22 @@
-<!--<div class="boxzilla-container boxzilla-center-container"><div id="boxzilla-2957" class="boxzilla boxzilla-2957 boxzilla-center boxzilla-newsletter-signup" style="background: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-width: 4px; max-width: 410px; overflow-y: auto; max-height: none; margin-top: 328.5px; display: none;"><div class="boxzilla-content"><h4 class=" first-child"></h4>-->
-<!-- MailChimp for WordPress v4.1.1 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-<!--<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2958" method="post" data-id="2958" data-name="20 VIC signup"><div class="mc4wp-form-fields"><div role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">-->
-<!--  <h4 id="dialog-title">-->
-<!--    Sign up for the 20VIC e-newsletter-->
-<!--  </h4>-->
-<!--  <p id="dialog-desc" class="newsletter-description">-->
-<!--      When you never rest, you always have news to share. Sign up below and stay up to date on all of 20VIC's news and updates.-->
-<!--  </p>-->
 
-<!--  <label for="EMAIL" class="sr-only">Enter your email address</label>-->
-<!--  <input class="newsletter-email" type="email" name="EMAIL" required="" placeholder="Enter email">-->
-<!--  <input class="newsletter-submit" type="submit" value="Sign up">-->
 
-    
-<!--</div><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></div><input type="hidden" name="_mc4wp_timestamp" value="1502475074"><input type="hidden" name="_mc4wp_form_id" value="2958"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"></div><div class="mc4wp-response"></div></form>-->
-<!-- / MailChimp for WordPress Plugin 
-<!--</div><span class="boxzilla-close-icon">×</span></div></div>-->
+<div class="boxzilla-container boxzilla-center-container"><div id="boxzilla-2957" class="boxzilla boxzilla-2957 boxzilla-center boxzilla-newsletter-signup" style="background: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-width: 4px; max-width: 410px; overflow-y: auto; max-height: none; margin-top: 328.5px;"><div class="boxzilla-content"><h4 class=" first-child"></h4>
+<!-- MailChimp for WordPress v4.1.3 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2958" method="post" data-id="2958" data-name="20 VIC signup"><div class="mc4wp-form-fields"><div role="dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
+  <h4 id="dialog-title">
+    Sign up for the 20VIC e-newsletter
+  </h4>
+  <p id="dialog-desc" class="newsletter-description">
+      When you never rest, you always have news to share. Sign up below and stay up to date on all of 20VIC's news and updates.
+  </p>
 
+  <label for="EMAIL" class="sr-only">Enter your email address</label>
+  <input class="newsletter-email" type="email" name="EMAIL" required="" placeholder="Enter email">
+  <input class="newsletter-submit" type="submit" value="Sign up">
+</div><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></div><input type="hidden" name="_mc4wp_timestamp" value="1502806179"><input type="hidden" name="_mc4wp_form_id" value="2958"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
+</div><span class="boxzilla-close-icon">×</span></div></div>
 
 <div class="paused">Paused</div>
 <div class="slick-slider" id="banner_container"></div>
-    <!--<div>-->
-<!--	    <div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/HOMEPAGE-ADVISORY-OFW.jpg');">-->
-<!--			<div class="slider_gradient"></div>-->
-<!--			<div class="slide-caption">-->
-<!--				<div class="text-wrapper">-->
-<!--					<h1><p>DRIVEN BY CHALLENGE<br />-->
-<!--COMMITTED TO RESULTS<br />-->
-<!--BOUND BY TRUST</p>-->
-<!--</h1>                                            										</div>-->
-<!--									</div>-->
-<!--															</div>-->
-<!--						</div>-->
-					 
-				
-<!--											<div>-->
-<!--							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/20vic-large-home4.jpg');">-->
-<!--								                  <div class="slider_gradient"></div>-->
-<!--									<div class="slide-caption">-->
-<!--										<div class="text-wrapper">-->
-<!--											<h1><p>PROGRESSIVE THINKING<br />-->
-<!--INNOVATIVE DESIGN<br />-->
-<!--ATTENTION TO DETAIL</p>-->
-<!--</h1>                                            										</div>-->
-<!--									</div>-->
-<!--															</div>-->
-<!--						</div>-->
-					 
-				
-<!--											<div>-->
-<!--							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2016/10/20-Vic-All-buildings-together.jpg');">-->
-<!--								                  <div class="slider_gradient"></div>-->
-<!--									<div class="slide-caption">-->
-<!--										<div class="text-wrapper">-->
-<!--											<h1><p>UNCOVERING POTENTIAL<br />-->
-<!--CREATING VALUE<br />-->
-<!--DELIVERING RESULTS</p>-->
-<!--</h1>                                            										</div>-->
-<!--									</div>-->
-<!--															</div>-->
-<!--						</div>-->
-					 
-				
-<!--											<div>-->
-<!--							<div class="bottom image_tall" style="background-image: url('http://www.20vic.com/cms/wp-content/uploads/2014/08/Halifax-Shopping-Centre-homepage-header.jpg');">-->
-<!--								                  <div class="slider_gradient"></div>-->
-<!--									<div class="slide-caption">-->
-<!--										<div class="text-wrapper">-->
-<!--											<h1><p>Two Cities One Heart</p>-->
-<!--</h1>                      <p>Halifax Shopping Centre and 20 Vic Management raise $50,000 -->
-<!--for the Red Cross in support of Fort McMurray relief efforts.</p>                      <a href="/two-cities-one-heart/">Read More</a>										</div>-->
-<!--									</div>-->
-<!--															</div>-->
-<!--						</div>-->
-<!--					</div>		-->
 
 <div class="callout">
 	<h2>Managing your investments on a foundation of confidence.</h2>
