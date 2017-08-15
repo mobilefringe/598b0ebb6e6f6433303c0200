@@ -51,14 +51,14 @@
 </div><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></div><input type="hidden" name="_mc4wp_timestamp" value="1502806179"><input type="hidden" name="_mc4wp_form_id" value="2958"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
 <!--</div><span class="boxzilla-close-icon">×</span></div></div>-->
 
-<!--<div class="paused">Paused</div>-->
-<!--<div class="slick-slider" id="banner_container"></div>-->
+<div class="paused">Paused</div>
+<div class="slick-slider" id="banner_container"></div>
 
-<!--<div class="callout">-->
-<!--	<h2>Managing your investments on a foundation of confidence.</h2>-->
-<!--	<div class="line"></div>-->
-<!--	<p>20 VIC Management is one of the country’s leading fully-integrated commercial real estate advisory companies. Our success comes from an experienced team of professionals who create opportunity, find innovative solutions and, most importantly, deliver value to our stakeholders.</p>-->
-<!--</div>-->
+<div class="callout">
+	<h2>Managing your investments on a foundation of confidence.</h2>
+	<div class="line"></div>
+	<p>20 VIC Management is one of the country’s leading fully-integrated commercial real estate advisory companies. Our success comes from an experienced team of professionals who create opportunity, find innovative solutions and, most importantly, deliver value to our stakeholders.</p>
+</div>
 
 <div id="maincontent" class="container">
     <div class="sixteen clearfix content">
