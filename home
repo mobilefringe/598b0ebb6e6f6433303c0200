@@ -16,8 +16,9 @@
 </style>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
         <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+            
             <div class="modal-body">
                 
                 <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2958" method="post" data-id="2958" data-name="20 VIC signup">
