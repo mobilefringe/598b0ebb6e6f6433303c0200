@@ -202,10 +202,6 @@ h2.results              {margin-left: 20px; margin-right: 20px;}
 #info p.price             {font-weight: 600; margin-bottom: 10px; font-size: 20px;}
 #info p               {margin-bottom: 0px; line-height: 1.5em;}
 
-
-
-
-  
 .gallery-box                { background-position: center center; background-size: cover; overflow: hidden; float: left; position: relative; box-sizing: border-box; margin: 0 4% 25px 0; width: 46%; padding-bottom: 34%; height: 0; border:1px solid rgba( 20,20,20,0.3 ); }
 
 .gallery-box:focus          { outline:none; }
@@ -355,8 +351,34 @@ img.tradeplan { max-width: 100%; }
 .sb-select.cs-active ul span    {width: 176px; position:relative;display:block;z-index: 9999999999;}
 .sb-select.cs-active .cs-options ul li:hover {background: #ccc; color: #fff;}
 
-
-
+/******************************************   POP-UP   *********************************************/
+#myModal {
+    margin: 0;
+    padding: 25px;
+    max-width: 410px;
+    height: 303px;
+    box-sizing: border-box;
+    border: 0;
+    
+}
+.modal-body {
+    overflow-y: initial;
+    max-height: none;
+    padding: 0;
+}
+.close {
+    padding: 6px;   
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.close span {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+}
 /******************************************   FOOTER   **********************************************/
 
 
