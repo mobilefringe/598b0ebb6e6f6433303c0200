@@ -190,7 +190,7 @@
                     </li>
                 </ul>
             </div>			
-			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".mobile-navbar-collapse"></button>
+			<button class="navbar-toggle collapsed" ></button>
 			<div class="collapse navbar-collapse mobile-navbar-collapse">
 				<div class="menu-main-menu-container">
 				    <ul id="menu-main-menu-1" class="menu">
