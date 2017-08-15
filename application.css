@@ -375,9 +375,9 @@ img.tradeplan { max-width: 100%; }
 .close span {
     width: auto;
     height: auto;
-    font-size: 40px;
+    font-size: 24px;
     font-family: 'Raleway', sans-serif;
-    line-height: 20px;
+    line-height: 0;
 }
 /******************************************   FOOTER   **********************************************/
 
