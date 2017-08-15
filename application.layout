@@ -124,10 +124,10 @@
     		    <div class="wpml-ls-legacy-list-horizontal" id="lang_sel_list">
     	            <ul>
     	                <li class="wpml-ls-item">
-    				        <a href="http://www.20vic.com/" class="lang_sel_sel"><span>EN</span></a>
+    				        <a href="?locale=en" id="set_lang_en"><span>EN</span></a>
     			        </li>
     			        <li class="wpml-ls-item">
-    				        <a href="http://www.20vic.com/fr/" class="lang_sel_other"><span>FR</span></a>
+    				        <a href="?locale=fr" id="set_lang_fr"><span>FR</span></a>
     			        </li>
     		        </ul>
                 </div>
