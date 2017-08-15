@@ -106,9 +106,8 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var repo = getBanners();
-            if (repo != undefined) {
-                var banner_images = repo.images;
+            var banner_images = getBanners();
+            if (banner_images != undefined) {
                 console.log(banner_images)
                 $.each(banner_images, function(key, val) {
                     var banner_img_url = val.photo_url_abs;
