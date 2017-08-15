@@ -20,7 +20,10 @@
     top: 0;
     right: 0;
     padding: 6px;
-    line-height: 20px;
+    
+    }
+    .close span {
+        line-height: 20px;
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     }
