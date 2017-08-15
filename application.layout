@@ -198,8 +198,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="/contact" data-i18n="nav.contact">Contact</a>
+                    <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                        <a href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>			
