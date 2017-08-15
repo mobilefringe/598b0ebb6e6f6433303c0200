@@ -71,28 +71,29 @@
                 autoplay: true,
                 autoplaySpeed: 5000  
             });
-            
-            $('#contact_form').submit(function(e) {
-                values = [];
-                values = JSON.stringify($('#contact_form').serializeArray());
-                e.preventDefault();
-                $.ajax({
-                    url : "/api/v1/contact",
-                    type: "POST",
-                    data : {authenticity_token: '<%=form_authenticity_token%>' ,
-                    form_data: values },
-                    success: function(data, textStatus, jqXHR) {
-                        $('#send_contact_success').fadeIn();
-                        $('#contact_form').find("input[type=text], input[type=email], textarea").val("");
-                        $('html, body').animate({scrollTop : 0},800);
-                    },
-                    error: function (jqXHR, textStatus, errorThrown) {
-                        $('#send_contact_error').fadeIn();
-                        $('html, body').animate({scrollTop : 0},800);
-                    }
-                });
-            });
+
         }
         loadMallDataCached(renderAll); 
+    });
+    
+    $('#contact_form').submit(function(e) {
+        values = [];
+        values = JSON.stringify($('#contact_form').serializeArray());
+        e.preventDefault();
+        $.ajax({
+            url : "/api/v1/contact_us",
+            type: "POST",
+            data : {authenticity_token: '<%=form_authenticity_token%>' ,
+            form_data: values },
+            success: function(data, textStatus, jqXHR) {
+                $('#send_contact_success').fadeIn();
+                $('#contact_form').find("input[type=text], input[type=email], textarea").val("");
+                $('html, body').animate({scrollTop : 0},800);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $('#send_contact_error').fadeIn();
+                $('html, body').animate({scrollTop : 0},800);
+            }
+        });
     });
 </script>
