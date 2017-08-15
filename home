@@ -104,6 +104,8 @@
                 });
             }
             
+            $('#myModal').modal('show');
+            
             var prefix = get_prefix();
             var pages_json = prefix + "/pages/20vic-about.json"
             $.getJSON(pages_json).done(function(data) {
