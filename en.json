@@ -1,0 +1,43 @@
+{
+	"nav": {
+		"about": "About",
+		"sustainability": "Sustainability",
+		"development": "Development",
+		"advisory": "Advisory",
+		"leasing": "Leasing",
+		"contact": "Contact",
+		"subnav": {
+			"team": "Team",
+			"accomplishments": "accomplishments",
+			"community": "Community",
+			"careers": "Careers",
+			"news": "News",
+			"case_studies": "Case Studies",
+			"awards": "Awards",
+			"sustainability_report": "Sustainability Report",
+			"in_progress_projects": "In-Progress Projects",
+			"completed_projects": "Completed Projects",
+			"retail_portfolio": "Retail Portfolio",
+			"office_portfolio": "Office Portfolio",
+			"other_portfolio": "Other Portfolio"
+		},
+		"locale": {
+			"english": "English",
+			"french": "Français"
+		}
+	},
+	"days_of_week": {
+		"0": "Sunday",
+		"1": "Monday",
+		"2": "Tuesday",
+		"3": "Wednesday",
+		"4": "Thursday",
+		"5": "Friday",
+		"6": "Saturday"
+	},
+	"footer": {
+		"rights": "All rights reserved",
+		"design": "Designed by ",
+		"power": "Powered by "
+	}
+}
