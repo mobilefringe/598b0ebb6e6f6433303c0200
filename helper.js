@@ -8,6 +8,7 @@ function init() {
     
     $(".navbar-toggle").click(function() {
         $(".mobile-navbar-collapse").slideToggle();
+        $(".mobile-navbar-collapse").toggleClass("collapse");
     })
     // Pausing the slick slider on mouseover
     $.fn.slickPause = function() {
