@@ -1,0 +1,43 @@
+{
+	"nav": {
+		"about": "À propos",
+		"sustainability": "Durabilité",
+		"development": "Développement",
+		"advisory": "Information",
+		"leasing": "Portefeuille",
+		"contact": "Communiquer",
+		"subnav": {
+			"team": "Équipe",
+			"accomplishments": "Réalisation",
+			"community": "Communauté",
+			"careers": "Carrières",
+			"news": "Nouvelles",
+			"case_studies": "Études de cas",
+			"awards": "Prix et certifications",
+			"sustainability_report": "Rapport sur la durabilité",
+			"in_progress_projects": "Projets en cours",
+			"completed_projects": "Projets terminés",
+			"retail_portfolio": "Portefeuille de commerces au détail",
+			"office_portfolio": "Portefeuille des immeubles de bureaux",
+			"other_portfolio": "Autre portefeuille"
+		},
+		"locale": {
+			"english": "English",
+			"french": "Français"
+		}
+	},
+	"days_of_week": {
+		"0": "Sunday",
+		"1": "Monday",
+		"2": "Tuesday",
+		"3": "Wednesday",
+		"4": "Thursday",
+		"5": "Friday",
+		"6": "Saturday"
+	},
+	"footer": {
+		"rights": "All rights reserved",
+		"design": "Designed by ",
+		"power": "Powered by "
+	}
+}
