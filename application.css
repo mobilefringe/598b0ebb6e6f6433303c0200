@@ -367,7 +367,7 @@ img.tradeplan { max-width: 100%; }
     padding: 0;
 }
 .close {
-    padding: 6px; 
+    padding: 6px !important; 
     width: auto;
     height: auto;
     position: absolute;
