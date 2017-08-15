@@ -108,6 +108,16 @@
 	</div>
 	<div class="nav-bar">
 		<div class="container">
+		    <div class="lang_sel_list_horizontal wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal" id="lang_sel_list">
+	            <ul>
+	                <li class="icl-en wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				        <a href="http://www.20vic.com/" class="lang_sel_sel"><span class="wpml-ls-native icl_lang_sel_native">EN</span></a>
+			        </li>
+			        <li class="icl-fr wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-fr wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				        <a href="http://www.20vic.com/fr/" class="lang_sel_other"><span class="wpml-ls-display icl_lang_sel_translated">FR</span></a>
+			        </li>
+		        </ul>
+            </div>
 			<a class="logo-link" href="http://www.20vic.com"><span class="hide-text">20 VIC Management Inc</span></a>
 			<div class="header-menu-container">
 			    <ul id="menu-main-menu" class="menu">
