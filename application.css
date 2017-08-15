@@ -112,6 +112,18 @@ img.medium-width  { width: 100%; height: auto; }
 .paginator .alignleft { float:left }
 .paginator .alignright { float:right; margin: 0; }
 
+#language {
+  color: white; position: absolute;
+}
+  @media (min-width: 1024px) { #language { right: 40px; font-size: 12px; } }
+  @media (max-width: 1024px) { #language { right: 55px; top: 6px; font-size: 17px; } }
+
+#language li:first-child { border-right: 1px solid white; }
+#language a { color: white !important; }
+#language a:hover { background: #f57b20; }
+
+.wpml-ls-statics-shortcode_actions a { background: transparent !important; }
+.wpml-ls-statics-shortcode_actions a:hover { background: #f57b20 !important; }
 
 /******************************************   SLIDER   *********************************************/
 
