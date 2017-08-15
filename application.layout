@@ -157,16 +157,16 @@
                         </ul>
                     </li>
                     <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34">
-                        <a href="/sustainability">Sustainability</a>
+                        <a href="/sustainability" data-i18n="nav.sustainability">Sustainability</a>
                         <ul class="sub-menu">
-	                        <li id="menu-item-2378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2378">
-	                            <a href="/sustainability/case-studies">Case Studies</a>
+	                        <li>
+	                            <a href="/sustainability/case-studies" data-i18n="nav.subnav.case_studies">Case Studies</a>
                             </li>
-                            <li id="menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2373">
-                                <a href="/sustainability/awards-certification">Awards/Certification</a>
+                            <li>
+                                <a href="/sustainability/awards-certification" data-i18n="nav.subnav.awards">Awards/Certification</a>
                             </li>
-	                        <li id="menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372">
-	                            <a href="/sustainability/annual-sustainability-report">Sustainability Report</a>
+	                        <li>
+	                            <a href="/sustainability/annual-sustainability-report" data-i18n="nav.subnav.sustainability_report">Sustainability Report</a>
                             </li>
                         </ul>
                     </li>
