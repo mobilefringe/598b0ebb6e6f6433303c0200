@@ -136,7 +136,7 @@
 			<a class="logo-link" href="http://www.20vic.com"><span class="hide-text">20 VIC Management Inc</span></a>
 			<div class="header-menu-container">
 			    <ul id="menu-main-menu" class="menu">
-			        <li>
+			        <li class="menu-item-has-children">
 			            <a href="/about" data-i18n="nav.about">About</a>
                         <ul class="sub-menu">
 	                        <li>
@@ -156,7 +156,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="menu-item-has-children">
                         <a href="/sustainability" data-i18n="nav.sustainability">Sustainability</a>
                         <ul class="sub-menu">
 	                        <li>
@@ -170,7 +170,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="menu-item-has-children">
                         <a href="/development" data-i18n="nav.development">Development</a>
                         <ul class="sub-menu">
 	                        <li>
@@ -184,7 +184,7 @@
                     <li>
                         <a href="/advisory" data-i18n="nav.advisory">Advisory</a>
                     </li>
-                    <li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-423">
+                    <li class="menu-item-has-children">
                         <a href="/leasing">Leasing</a>
                         <ul class="sub-menu">
 	                        <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
