@@ -301,16 +301,16 @@
     				        <div class="menu-footer-container">
     				            <ul id="menu-footer" class="menu">
     				                <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39">
-    				                    <a href="/about/team">Team</a>
+    				                    <a href="/about/team" data-i18n="nav.subnav.sustainability_report" data-i18n="nav.subnav.team">Team</a>
     			                    </li>
                                     <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
-                                        <a href="/sustainability">Sustainability</a>
+                                        <a href="/sustainability" data-i18n="nav.sustainability">Sustainability</a>
                                     </li>
                                     <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41">
-                                        <a href="/about/accomplishments">Accomplishments</a>
+                                        <a href="/about/accomplishments" data-i18n="nav.subnav.accomplishments">Accomplishments</a>
                                     </li>
                                     <li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421">
-                                        <a href="/about/community">Community</a>
+                                        <a href="/about/community" data-i18n="nav.subnav.community">Community</a>
                                     </li>
                                 </ul>
                             </div>
