@@ -6,10 +6,10 @@ function init() {
     var boxWidth = $('.modal-dialog').width();
     $('#myModal').css({'left' : ((windowWidth - boxWidth)/2), 'top' : ((windowHeight - boxHeight)/2)});
     
-    // $(".navbar-toggle").click(function() {
-    //     $(".mobile-navbar-collapse").slideToggle();
-    //     $(".mobile-navbar-collapse").toggleClass("collapse");
-    // })
+    $(".navbar-toggle").click(function() {
+        $(".mobile-navbar-collapse").slideToggle();
+        $(".mobile-navbar-collapse").toggleClass("collapse");
+    })
     // Pausing the slick slider on mouseover
     $.fn.slickPause = function() {
         var _ = this;
