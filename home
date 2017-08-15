@@ -150,14 +150,3 @@
         loadMallDataCached(renderAll); 
     });
 </script>
-
-<div>
-    <div class='bottom image_tall' style='background-image: url(" + banner_img_url + ");'>
-        <div class='slider_gradient'></div>
-        <div class='slide-caption'>
-            <div class='text-wrapper'>
-                <h1>" + banner_message + "</h1>
-            </div>
-        </div>
-    </div>
-</div>
