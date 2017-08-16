@@ -71,15 +71,6 @@
 	    "email": "Email",
 	    "comments": "Comments",
 	    "submit": "Submit"
-	}
-	"days_of_week": {
-		"0": "Sunday",
-		"1": "Monday",
-		"2": "Tuesday",
-		"3": "Wednesday",
-		"4": "Thursday",
-		"5": "Friday",
-		"6": "Saturday"
 	},
 	"footer": {
 		"rights": "All rights reserved",
