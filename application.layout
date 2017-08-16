@@ -320,16 +320,16 @@
     					        <div class="menu-footer-2-container">
     					            <ul id="menu-footer-2" class="menu">
     					                <li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
-    					                    <a href="/leasing/office-portfolio">Office Portfolio</a>
+    					                    <a href="/leasing/office-portfolio" data-i18n="nav.subnav.office_portfolio">Office Portfolio</a>
     				                    </li>
                                         <li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93">
-                                            <a href="/leasing/retail-portfolio">Retail Portfolio</a>
+                                            <a href="/leasing/retail-portfolio" data-i18n="nav.subnav.retail_portfolio">Retail Portfolio</a>
                                         </li>
                                         <li id="menu-item-441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
-                                            <a href="/leasing/other-portfolio">Other Portfolio</a>
+                                            <a href="/leasing/other-portfolio" data-i18n="nav.subnav.other_portfolio">Other Portfolio</a>
                                         </li>
                                         <li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
-                                            <a href="/development">Development</a>
+                                            <a href="/development" data-i18n="nav.development">Development</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -340,16 +340,16 @@
     					        <div class="menu-footer-3-container">
     					            <ul id="menu-footer-3" class="menu">
     					                <li id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422">
-    					                    <a href="/contact">Contact</a>
+    					                    <a href="/contact" data-i18n="nav.contact">Contact</a>
     				                    </li>
                                         <li id="menu-item-98" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-98">
-                                            <a href="#">Newsletter Signup</a>
+                                            <a href="#" data-i18n="nav.subnav.newsletter">Newsletter Signup</a>
                                         </li>
                                         <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                            <a href="/about/careers/">Careers</a>
+                                            <a href="/about/careers" data-i18n="nav.subnav.careers">Careers</a>
                                         </li>
                                         <li id="menu-item-2635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2635">
-                                            <a href="/privacy-policy">Privacy Policy</a>
+                                            <a href="/privacy-policy" data-i18n="nav.subnav.privacy_policy">Privacy Policy</a>
                                         </li>
                                     </ul>
                                 </div>
