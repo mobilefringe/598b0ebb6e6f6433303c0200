@@ -22,12 +22,42 @@
 			"other_portfolio": "Other Portfolio",
 			"newsletter": "Newsletter Signup",
 			"privacy_policy": "Privacy Policy"
-		},
-		"locale": {
-			"english": "English",
-			"french": "Français"
 		}
 	},
+	"pages": {
+	    "about": "About",
+        "team": "Team",
+        "accomplishments": "Accomplishments",
+        "community": "Community",
+        "careers": "Careers",
+        "news": "News",
+	    "sustainability": "Sustainability",
+	    "case_studies": "Case Studies",
+	    "awards": "Awards/Certification",
+	    "report": "Sustainability Report",
+	    "development": "Development",
+	    "in_progress_projects": "In-Progress Projects",
+	    "completed": "Completed Projects",
+	    "advisory": "Advisory",
+	    "leasing": "Leasing",
+	    "retail_portfolio": "Retail Portfolio",
+	    "office_portfolio": "Office Portfolio",
+	    "other_portfolio": "Other Portfolio",
+	    "contact": "Contact"
+	},
+	"team": {
+        "executive": "Executive",
+        "investment": "Investment",
+        "leasing": "Leasing",
+        "operations": "Operations"
+	},
+	"community": {
+	    "copshop": "CopShop",
+	    "winter_warmth": "Operation Winter Warmth",
+	    "hoarding": "Hoarding for Humanity",
+	    "humanitarian": "The Humanitarian Coalition"
+	},
+	
 	"days_of_week": {
 		"0": "Sunday",
 		"1": "Monday",
