@@ -57,7 +57,21 @@
 	    "hoarding": "Hoarding for Humanity",
 	    "humanitarian": "The Humanitarian Coalition"
 	},
-	
+	"leasing": {
+	    "overview": "Overview",
+	    "atlantic": "Atlantic Canada",
+	    "quebec": "Quebec"
+	    "western": "Western Canada",
+	    "properties": "Properties"
+	},
+	"contact": {
+	    "subtitle": "Questions or Comments?",
+	    "first_name": "First Name",
+	    "last_name": "Last Name",
+	    "email": "Email",
+	    "comments": "Comments",
+	    "submit": "Submit"
+	}
 	"days_of_week": {
 		"0": "Sunday",
 		"1": "Monday",
